@@ -1,0 +1,5358 @@
+[
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1437736321892569104",
+      "created_at": "2021-09-14T11:13:45.000Z",
+      "text": "New profile pic. https://t.co/7vLQVxtufD",
+      "favorite_count": 228,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        16
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1437736321892569104/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 54,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1681691639922806784",
+      "created_at": "2023-07-19T15:45:05.000Z",
+      "text": "Doges ftw https://t.co/bl0trQ7BdU",
+      "favorite_count": 689037,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        9
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/elonmusk/status/1681691639922806784/photo/1"
+      ],
+      "user_id": "44196397",
+      "user_name": "Elon Musk",
+      "user_screen_name": "elonmusk",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "",
+      "conversation_count": 15750,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1415658765492256770",
+      "created_at": "2021-07-15T13:05:26.000Z",
+      "text": "3D Virtual Universe beyond the Starlink ecosystem https://t.co/Jtx3o7ivz2",
+      "favorite_count": 169,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        49
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1415658765492256770/video/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 36,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1915445459109204424",
+      "created_at": "2025-04-24T16:39:19.000Z",
+      "text": "If you hold SHIB at the right time, you are already Doges\nhttps://t.co/mtsShN11r6",
+      "favorite_count": 4,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        81
+      ],
+      "hashtags": [],
+      "urls": [
+        "http://t.me/Doges_Official"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1461144345755586562",
+      "created_at": "2021-11-18T01:28:53.000Z",
+      "text": "Official #Pixelnauts collection on Opensea\nhttps://t.co/wgCNGj5QbA",
+      "favorite_count": 172,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        66
+      ],
+      "hashtags": [
+        "Pixelnauts"
+      ],
+      "urls": [
+        "https://opensea.io/collection/starlink-pixelnauts"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 42,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1461695689927258116",
+      "created_at": "2021-11-19T13:59:44.000Z",
+      "text": "#STARL #Pixelnauts revealed successfully!\nAnd I could choose my profile picture finally. 👏🙌 https://t.co/UprvSVHbT9",
+      "favorite_count": 449,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        93
+      ],
+      "hashtags": [
+        "STARL",
+        "Pixelnauts"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1461695689927258116/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 96,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1453906220767535106",
+      "created_at": "2021-10-29T02:07:09.000Z",
+      "text": "Limited Beta Game Testing. 🎮\n#StarLinkETH Fam Get Ready.",
+      "favorite_count": 412,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        57
+      ],
+      "hashtags": [
+        "StarLinkETH"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 133,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425492097776246791",
+      "created_at": "2021-08-11T16:19:35.000Z",
+      "text": "Okay, I dropped new token.\nIt's nothing to do with STARL and STARL is nothing to do with it.\nDoont Buy - $DBUY  play at your own risk",
+      "favorite_count": 145,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        133
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "DBUY"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 80,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1427992875686502402",
+      "created_at": "2021-08-18T13:56:47.000Z",
+      "text": "Can I purchase panda costume in the space? heh.. 🐼 https://t.co/T6KAGd3DGY",
+      "favorite_count": 156,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        51
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1427992875686502402/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 58,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1679164661869182976",
+      "created_at": "2023-07-12T16:23:47.000Z",
+      "text": "Announcing formation of @xAI to understand reality",
+      "favorite_count": 172908,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        50
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "xai"
+      ],
+      "symbols": [],
+      "media": [],
+      "user_id": "44196397",
+      "user_name": "Elon Musk",
+      "user_screen_name": "elonmusk",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "",
+      "conversation_count": 14884,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1420188164040237059",
+      "created_at": "2021-07-28T01:03:38.000Z",
+      "text": "Starlink Metaverse\nInsane 🤠",
+      "favorite_count": 158,
+      "lang": "it",
+      "display_text_range": [
+        0,
+        28
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 102,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1433067532231983120",
+      "created_at": "2021-09-01T14:01:39.000Z",
+      "text": "Good job from the community",
+      "favorite_count": 122,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        27
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 22,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1460895558558642177",
+      "created_at": "2021-11-17T09:00:17.000Z",
+      "text": "The #Pixelnauts  collection is the first volume in #StarLinkETH 's new 'Artist Profile Series'. \nSet as your avatar, get access to limited features of STARL's #Metaverse, or trade on the marketplace.\nEvery #PIXELNAUT minted is different and rare, with some more rare than others! https://t.co/D2YQelzgWw",
+      "favorite_count": 271,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        279
+      ],
+      "hashtags": [
+        "Pixelnauts",
+        "StarLinkETH",
+        "Metaverse",
+        "PIXELNAUT"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1460895558558642177/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 69,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1486261591062757376",
+      "created_at": "2022-01-26T08:55:51.000Z",
+      "text": "What we've been developing.. #STARL #Metaverse\nThat's huge 💥",
+      "favorite_count": 313,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        61
+      ],
+      "hashtags": [
+        "STARL",
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 83,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1435067941347676161",
+      "created_at": "2021-09-07T02:30:34.000Z",
+      "text": "$Starl #Metaverse will include AAA game.",
+      "favorite_count": 182,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        40
+      ],
+      "hashtags": [
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "Starl"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 55,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1427839022756372482",
+      "created_at": "2021-08-18T03:45:25.000Z",
+      "text": "First test rebase done today!\nAimed to be a negative rebase, but went to positive accidentally. 😅\nBut seems like worked properly. 😍\n\nDBUY was supposed to be an experimental token.\nI'll keep doing test until early Sep, then you community drive it.\nPeg to what?",
+      "favorite_count": 167,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        261
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 68,
+      "news_action_type": "covid19",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425809243135823876",
+      "created_at": "2021-08-12T13:19:48.000Z",
+      "text": "Mini games will be bullish. Starlink mommy game and child games\nSmart idea.. Starlink troopers. ❤️",
+      "favorite_count": 197,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        98
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 153,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425493624934920195",
+      "created_at": "2021-08-11T16:25:39.000Z",
+      "text": "You believe it, I also believe it",
+      "favorite_count": 96,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        33
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 54,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1457898220735057934",
+      "created_at": "2021-11-09T02:29:56.000Z",
+      "text": "@lyu_johnny @Cointelegraph It does indeed seem like we are on the brink of a blockchain innovation explosion.\n\n@StarLinkETH has positioned itself ahead of competitors by incorporating Scott Brown's Warp Nexus project into their #metaverse.\n\nWhere other projects will take years, $Starl will take months. https://t.co/rZGIG4UY6R",
+      "favorite_count": 319,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        27,
+        303
+      ],
+      "hashtags": [
+        "metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [
+        "lyu_johnny",
+        "Cointelegraph",
+        "StarLinkETH"
+      ],
+      "symbols": [
+        "Starl"
+      ],
+      "media": [
+        "https://x.com/MetaTinMan/status/1457898220735057934/video/1"
+      ],
+      "user_id": "1406556181133512705",
+      "user_name": "Justin",
+      "user_screen_name": "Justinman0x",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1928569777716346880/qyQCWJtE_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 22,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1767669114653331757",
+      "created_at": "2024-03-12T21:48:53.000Z",
+      "text": "Hi!\n@woof_decentra \n\nThis week $WFO will show a nice Sneak peak 👀\n\nTelegram: https://t.co/0Hpdw5QMgH https://t.co/6NbU7k9Ykh",
+      "favorite_count": 37,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        101
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://t.me/wooforacles"
+      ],
+      "user_mentions": [
+        "woof_decentra"
+      ],
+      "symbols": [
+        "WFO"
+      ],
+      "media": [
+        "https://x.com/WFOracle/status/1767669114653331757/video/1"
+      ],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 12,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1765346665345495542",
+      "created_at": "2024-03-06T12:00:18.000Z",
+      "text": "Token contract: https://t.co/OIsKTptSaC\n\nChart: https://t.co/MuO9OBqmGw\n\nUniswap: https://t.co/RPdPsNXdmf\n\nOfficial Website: https://t.co/KJyQhDjyQo\n\nWhitepaper: https://t.co/wOMeRCWdKK",
+      "favorite_count": 25,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        185
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://wooforacle.com/WoofOracle_Whitepaper.pdf",
+        "https://www.dextools.io/app/en/ether/pair-explorer/0xad00f17952eb33707331d037f54d499bdf80445a",
+        "https://wooforacle.com",
+        "https://etherscan.io/address/0x97D2FC7d16BC34121c3311f2e2E05D298c19956f",
+        "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x97d2fc7d16bc34121c3311f2e2e05d298c19956f"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1410448135277604874",
+      "created_at": "2021-07-01T04:00:14.000Z",
+      "text": "Today, I deployed a new token $STARL for test and added liquidity accidentally.\nDidn't expect this token to be traded so quickly.\nApologies for my mistake, and I decided to burn liquidity and let it moves as a community-driven project.\nI always love 100% decentralization",
+      "favorite_count": 136,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        271
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "STARL"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 21,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1419611049704116224",
+      "created_at": "2021-07-26T10:50:24.000Z",
+      "text": "You should check the dev progress\nThe goal of our journey is not the price, it's the product",
+      "favorite_count": 181,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        92
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 36,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1800134152471433611",
+      "created_at": "2024-06-10T11:53:21.000Z",
+      "text": "We are excited to announce the launch of our new meme token, Kanji, on Tuesday(2024.06.11) at 11:30 AM UTC to celebrate the Ethereum ETF. \nJust have a fun!\n\nWebsite: https://t.co/d2tksgJN2g\nTelegram: https://t.co/u6FzyX2b2H https://t.co/etnmN2iIqn",
+      "favorite_count": 27,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        223
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.kanjicoin.xyz/",
+        "https://t.me/kanjiclub"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1800134152471433611/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1866494731472998652",
+      "created_at": "2024-12-10T14:46:36.000Z",
+      "text": "Fascinating!!!\nhttps://t.co/ObfcCy1IX7 https://t.co/OuaqxUzwUA",
+      "favorite_count": 33,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        38
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.brrrdemoney.com"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1866494731472998652/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 18,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1412626308664676352",
+      "created_at": "2021-07-07T04:15:31.000Z",
+      "text": "Decentralized StarLink Metaverse https://t.co/ZjwQ5o8Pa7",
+      "favorite_count": 155,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        32
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1412626308664676352/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 24,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1426544228352495620",
+      "created_at": "2021-08-14T14:00:22.000Z",
+      "text": "Starl community is amazing!\nBig family.",
+      "favorite_count": 203,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        39
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 35,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1393247140500054020",
+      "created_at": "2021-05-14T16:49:38.000Z",
+      "text": "Aped into $KUMA. The next dog meme token. Deployed by the same address as $SHIB. Less than 1.5k holders so far. Big Marketing moves coming soon @KumaInuOfficial\n\nhttps://t.co/vKVB9CQtEk https://t.co/C4O4Ls06uz",
+      "favorite_count": 33,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        185
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.dextools.io/app/uniswap/pair-explorer/0x27fd2f5942049bcd601428c7bcede364180b4b3f"
+      ],
+      "user_mentions": [
+        "KumaInuOfficial"
+      ],
+      "symbols": [
+        "KUMA",
+        "SHIB"
+      ],
+      "media": [
+        "https://x.com/BTC_GIVER/status/1393247140500054020/photo/1"
+      ],
+      "user_id": "1286249381155479553",
+      "user_name": "SymDroid",
+      "user_screen_name": "BTC_NFT",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1684580129027276802/oOAKXzyy_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 19,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1454510613246341122",
+      "created_at": "2021-10-30T18:08:48.000Z",
+      "text": "Good job!",
+      "favorite_count": 287,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        9
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 48,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422549142899937280",
+      "created_at": "2021-08-03T13:25:20.000Z",
+      "text": "Okay, SATE NFT Contract has been deployed.\n\nhttps://t.co/C0sPeJC5Wj",
+      "favorite_count": 140,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        67
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/address/0x48470fb3fe7108b9e15b2bf7aa15b7adf774d721"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 104,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1440869182799695877",
+      "created_at": "2021-09-23T02:42:37.000Z",
+      "text": "Long Awaited\n\nhttps://t.co/sNqdCoIFci",
+      "favorite_count": 180,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        37
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://cryptosauce.news/2021/09/22/starl-metaverse-preps-fans-for-long-awaited-satellite-nft-and-marketplace-2-0-auction-this-friday/"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 40,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1456446195220447232",
+      "created_at": "2021-11-05T02:20:07.000Z",
+      "text": "The Next NFT Bull Run, when?? 🧐 https://t.co/BjaccYwbW3",
+      "favorite_count": 309,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        32
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1456446195220447232/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 97,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1862105662190219566",
+      "created_at": "2024-11-28T12:06:00.000Z",
+      "text": "Very first version of governance dashboard is also live 👌\nhttps://t.co/2yfjr6WmhD\n\nBrrr de Money\nAll hail Brrrrrrrrrrrr",
+      "favorite_count": 5,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        120
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://gov.brrrdemoney.com/"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 2,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1461168899353837570",
+      "created_at": "2021-11-18T03:06:27.000Z",
+      "text": "Friday 2pm UTC for #Pixelnauts reveal https://t.co/DBDjw6HBIG",
+      "favorite_count": 231,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        37
+      ],
+      "hashtags": [
+        "Pixelnauts"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1461168899353837570/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 39,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425438300920172547",
+      "created_at": "2021-08-11T12:45:48.000Z",
+      "text": "Over 11 devs are contributing to the Starlink ecosystem and #metaverse development\nAlways welcome contributors",
+      "favorite_count": 172,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        110
+      ],
+      "hashtags": [
+        "metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 52,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1769045426471043429",
+      "created_at": "2024-03-16T16:57:51.000Z",
+      "text": "Don't miss woof's new token. It is a unique oracle. Because it is completely decentralized. Welcome to the new generation of oracles #wfo #woof #oracle #decentralization\n@woof_decentra https://t.co/bKgkxRCgWw",
+      "favorite_count": 35,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        184
+      ],
+      "hashtags": [
+        "wfo",
+        "woof",
+        "oracle",
+        "decentralization"
+      ],
+      "urls": [],
+      "user_mentions": [
+        "woof_decentra"
+      ],
+      "symbols": [],
+      "media": [
+        "https://x.com/WFOracle/status/1769045426471043429/photo/1"
+      ],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 4,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1433641850951274535",
+      "created_at": "2021-09-03T04:03:47.000Z",
+      "text": "Oh, wow..\nNot sure what this is. 🧐\nsatellite or spaceship? https://t.co/FOrMVuZ3fQ",
+      "favorite_count": 1196,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        59
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1433641850951274535/video/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 151,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1773099369543110995",
+      "created_at": "2024-03-27T21:26:46.000Z",
+      "text": "Tomorrow we will have a nice update!👀\n\nDevs cooking 🧑🏻‍🍳 \n@woof_decentra \n\nShow them 🙃 https://t.co/GoWzzKwESR",
+      "favorite_count": 30,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        91
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "woof_decentra"
+      ],
+      "symbols": [],
+      "media": [
+        "https://x.com/WFOracle/status/1773099369543110995/photo/1"
+      ],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 22,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1427247607445737477",
+      "created_at": "2021-08-16T12:35:21.000Z",
+      "text": "Huh.. Panda is me? lolll\nThanks https://t.co/Ql6DmxOM04",
+      "favorite_count": 185,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        31
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1427247607445737477/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 224,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1855906798013681950",
+      "created_at": "2024-11-11T09:33:56.000Z",
+      "text": "https://t.co/h5ftrYReyE",
+      "favorite_count": 17,
+      "lang": "zxx",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        23
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://t.me/brrrdemoney"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 6,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425076946677862401",
+      "created_at": "2021-08-10T12:49:55.000Z",
+      "text": "Learnt one Chinese word. 很棒!",
+      "favorite_count": 120,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        28
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 54,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1428945368352387079",
+      "created_at": "2021-08-21T05:01:38.000Z",
+      "text": "The first mini game STARL ROCKET RACE is being built in #StarLinkETH #Metaverse https://t.co/9iKD47lpLM",
+      "favorite_count": 295,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        79
+      ],
+      "hashtags": [
+        "StarLinkETH",
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1428945368352387079/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 124,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1451132419172675590",
+      "created_at": "2021-10-21T10:25:04.000Z",
+      "text": "📣 Calling all #memecoin believers 🐾\n\nVOTE (deposit) to get your favourite 🐶listed on#OKEx:\n🦴 $ELON @DogelonMars\n🦴 $KUMA @KumaInuOfficial\n🦴 $STARL @StarLinkETH\n🦴 $SAMO @samoyedcoin\n🦴 $LEASH @Shibtoken\n\n🗳 Tokens w/ &gt;5,000 votes get listed @OKEx\n\n🔗https://t.co/pNn5PbeLqI https://t.co/uAc1PnD5ke",
+      "favorite_count": 2373,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        281
+      ],
+      "hashtags": [
+        "memecoin"
+      ],
+      "urls": [
+        "https://bit.ly/3C1J6ry"
+      ],
+      "user_mentions": [
+        "DogelonMars",
+        "KumaInuOfficial",
+        "StarLinkETH",
+        "samoyedcoin",
+        "Shibtoken"
+      ],
+      "symbols": [
+        "ELON",
+        "KUMA",
+        "STARL",
+        "SAMO",
+        "LEASH"
+      ],
+      "media": [
+        "https://x.com/OKEx/status/1451132419172675590/photo/1"
+      ],
+      "user_id": "867617849208037377",
+      "user_name": "OKX",
+      "user_screen_name": "okx",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1826636254164774912/6-Hm_NAR_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Square",
+      "conversation_count": 3089,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1773704516069691573",
+      "created_at": "2024-03-29T13:31:25.000Z",
+      "text": "Strong beliefs precede great actions. 🧐It is the repetition of statements that leads to faith. And once this belief becomes a deep conviction, things begin to happen. \nThe birth and development of WoofOracle is happening before your eyes. @woof_decentra https://t.co/YhsVlLMIhA",
+      "favorite_count": 43,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        254
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "woof_decentra"
+      ],
+      "symbols": [],
+      "media": [
+        "https://x.com/WFOracle/status/1773704516069691573/photo/1"
+      ],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 21,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1419108027802607619",
+      "created_at": "2021-07-25T01:31:34.000Z",
+      "text": "Chinese versioned website from chinese family. https://t.co/NQs7iUQVDD",
+      "favorite_count": 168,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        46
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1419108027802607619/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 40,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1441647183351062529",
+      "created_at": "2021-09-25T06:14:07.000Z",
+      "text": "Told you AAA game is in the progress.\nWarp Nexus into the StarLink Metaverse 🥰",
+      "favorite_count": 243,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        79
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 45,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1765051401799909673",
+      "created_at": "2024-03-05T16:27:01.000Z",
+      "text": "I am very excited that WoofOracle is scheduled to be released tomorrow (2024/03/06) at 12:00 PM\n\nJoin our channel to get more info!\n\nTelegram: https://t.co/qYVdl1LxIc\nWebsite: https://t.co/8fbLDBXrG0",
+      "favorite_count": 40,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        199
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://t.me/wooforacles",
+        "http://wooforacle.com"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1411269980725731337",
+      "created_at": "2021-07-03T10:25:58.000Z",
+      "text": "@StarLinkETH Charity? Marketing?\nUmm.. I donated some accidentally.",
+      "favorite_count": 119,
+      "lang": "en",
+      "display_text_range": [
+        13,
+        67
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "StarLinkETH"
+      ],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 16,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1437995306889535488",
+      "created_at": "2021-09-15T04:22:52.000Z",
+      "text": "Revenue share with the community is a plan\nI believe it's the decentralization\nYou Starl Troopers",
+      "favorite_count": 208,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        97
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 54,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1414395668462927873",
+      "created_at": "2021-07-12T01:26:20.000Z",
+      "text": "Smart",
+      "favorite_count": 75,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        5
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 2,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1410455493521264647",
+      "created_at": "2021-07-01T04:29:29.000Z",
+      "text": "I will launch a new project in the coming days, which had been testing for the last days.\nWill consider making utilities for $STARL in the new project.",
+      "favorite_count": 172,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        151
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "STARL"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 43,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1420558975959924736",
+      "created_at": "2021-07-29T01:37:07.000Z",
+      "text": "August 3rd",
+      "favorite_count": 234,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        10
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 111,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1800829649796358465",
+      "created_at": "2024-06-12T09:57:00.000Z",
+      "text": "Amazing! Top 2 trading on DexTools. 🥰 https://t.co/bUO8bWKGDj",
+      "favorite_count": 24,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        38
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1800829649796358465/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1765745772027338980",
+      "created_at": "2024-03-07T14:26:12.000Z",
+      "text": "In phase 2, we plan to launch wrapped WFO tokens.\nwWFO tokens can be exchanged with WFO at a 1:1 ratio.\nany wWFO holders can delegate to data-providers (Don't need to transfer or approve. you hold wWFO token in your wallet and just delegate it to data-provider) and can reward.",
+      "favorite_count": 30,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        277
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 34,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1420723303438700552",
+      "created_at": "2021-07-29T12:30:05.000Z",
+      "text": "Believing the future is on the metaverse.\nAgree that the metaverse is a next-generation industry.\nThe metaverse in the universe is infinitely large. https://t.co/FDEuvGl2By",
+      "favorite_count": 315,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        148
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1420723303438700552/video/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 116,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422956674378203137",
+      "created_at": "2021-08-04T16:24:43.000Z",
+      "text": "Didn't expect that one would be sold at 500k. lol.. 😅",
+      "favorite_count": 167,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        54
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 50,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1430924982230470660",
+      "created_at": "2021-08-26T16:07:55.000Z",
+      "text": "From Play Station to Space Station",
+      "favorite_count": 255,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        34
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 47,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1855896575832166741",
+      "created_at": "2024-11-11T08:53:19.000Z",
+      "text": "Gonna be a fun week brrrrrrrrr",
+      "favorite_count": 17,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        30
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 6,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1420356978686140419",
+      "created_at": "2021-07-28T12:14:27.000Z",
+      "text": "Seeing the first SATE on Opensea while having coffee. https://t.co/USEng2zT8n",
+      "favorite_count": 182,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        53
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1420356978686140419/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 52,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1415484019089698817",
+      "created_at": "2021-07-15T01:31:03.000Z",
+      "text": "Incentive for digital artists - satellite creators",
+      "favorite_count": 82,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        50
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 9,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1854906776346673435",
+      "created_at": "2024-11-08T15:20:12.000Z",
+      "text": "LOL!\nShit printer or Money printer??\nbrrrrrrrrrr de money\n#BRRR_DE_MONEY\n\nhttps://t.co/bBKpmzmrgr\nGo go brrrrrrrrrr https://t.co/9lJD2XIHWC",
+      "favorite_count": 33,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        115
+      ],
+      "hashtags": [
+        "BRRR_DE_MONEY"
+      ],
+      "urls": [
+        "https://dexscreener.com/ethereum/0x71dcabff9f9275c34fe6999329ad8580cdaa0868"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1854906776346673435/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 3,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1423667009909260293",
+      "created_at": "2021-08-06T15:27:20.000Z",
+      "text": "When Starbase game demo come out??",
+      "favorite_count": 162,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        34
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 77,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1411668859010965511",
+      "created_at": "2021-07-04T12:50:58.000Z",
+      "text": "Liked.. ❤️ https://t.co/oUFdJRKzfO",
+      "favorite_count": 145,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        10
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1411668859010965511/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 25,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1439366880310046721",
+      "created_at": "2021-09-18T23:13:01.000Z",
+      "text": "Congratulations @Inspiration4x!!!",
+      "favorite_count": 109636,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        33
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "inspiration4x"
+      ],
+      "symbols": [],
+      "media": [],
+      "user_id": "44196397",
+      "user_name": "Elon Musk",
+      "user_screen_name": "elonmusk",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "",
+      "conversation_count": 6257,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1670119437985550336",
+      "created_at": "2023-06-17T17:21:17.000Z",
+      "text": "Unleash all the memes~ https://t.co/bxHETQwXnf",
+      "favorite_count": 696,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        22
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1670119437985550336/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 371,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1420953937792753669",
+      "created_at": "2021-07-30T03:46:33.000Z",
+      "text": "Love the words.\nHave been intense as we prepare #Metaverse",
+      "favorite_count": 103,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        58
+      ],
+      "hashtags": [
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 28,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1489439400451018757",
+      "created_at": "2022-02-04T03:23:20.000Z",
+      "text": "Starlink Mission ✨💥\n#Starlink @StarLinkETH",
+      "favorite_count": 316,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        43
+      ],
+      "hashtags": [
+        "Starlink"
+      ],
+      "urls": [],
+      "user_mentions": [
+        "StarLinkETH"
+      ],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 131,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1768708216966238720",
+      "created_at": "2024-03-15T18:37:54.000Z",
+      "text": "Our developers and designers are hard at work this week.\nSmart Contract:\n - Finish developing Governance smart contract and testing it on testnet.\n - Developing Wrapped WFO smart contract.\n\nDesign:\nDashboard, Swap and Delegate page is ready.\n\n$WFO 🥰🥰🥰 https://t.co/uk4Ij5nsHh",
+      "favorite_count": 43,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        254
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "WFO"
+      ],
+      "media": [
+        "https://x.com/woof_decentra/status/1768708216966238720/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 40,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422738498130309120",
+      "created_at": "2021-08-04T01:57:45.000Z",
+      "text": "Still lots of rumors come..\nBut you can simply check https://t.co/qGnLEZyQhx",
+      "favorite_count": 61,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        52
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1422738498130309120/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 13,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1411007697089024001",
+      "created_at": "2021-07-02T17:03:44.000Z",
+      "text": "Some of frens are asking if I launch new token..\nNope!! I will bring the products for Starlink fam.\nAlso contribute to Kuma team.\n\nI deliver the rockets, you launch them. As always",
+      "favorite_count": 127,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        180
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 30,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1427449142171770907",
+      "created_at": "2021-08-17T01:56:10.000Z",
+      "text": "I think it's one of starl mini games, yeah?",
+      "favorite_count": 174,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        43
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 50,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1862086283452883367",
+      "created_at": "2024-11-28T10:49:00.000Z",
+      "text": "Brrr Staking contract is live now 😆\nDo not stake any of your BRRR before we start a reward pool~\nhttps://t.co/ydW7db9YgU\n\nNeed more $BRRR, LOL",
+      "favorite_count": 26,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        143
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/address/0x4e3299d5dba315e2f6cc7f3efbd5b27d30ee8eaa"
+      ],
+      "user_mentions": [],
+      "symbols": [
+        "BRRR"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 18,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1855894976334319808",
+      "created_at": "2024-11-11T08:46:57.000Z",
+      "text": "We build a fastest trading platform Brrr bot - high-speed, multi-chain trading solution designed to optimize entry and exit points, streamline copy trading, and ensure secure, customizable transactions.",
+      "favorite_count": 56,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        202
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 21,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1800816051044893050",
+      "created_at": "2024-06-12T09:02:58.000Z",
+      "text": "Dear Community,\n\nWe are excited to announce that the tax is now zero. You can enjoy trading without any tax.\n\nWe are also preparing for marketing efforts and a CEX listing.\n\nHave a great day!",
+      "favorite_count": 36,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        191
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1410940843549106185",
+      "created_at": "2021-07-02T12:38:05.000Z",
+      "text": "Whitepaper? Woofpaper?",
+      "favorite_count": 80,
+      "lang": "nl",
+      "display_text_range": [
+        0,
+        22
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 11,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1405515830859747332",
+      "created_at": "2021-06-17T13:21:01.000Z",
+      "text": "https://t.co/bdB3fOtkhX\nhttps://t.co/QDyJWauXYr",
+      "favorite_count": 12,
+      "lang": "zxx",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        47
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/tx/0xf0bf730ef3859d2f0d2ffc7b8553eb1a2b166e8c8d9a33d9f6d99c6c74782f36",
+        "https://etherscan.io/tx/0x438f10a820fe3cf5fa8ed38670a096f86c5682b56ad3be6971b41a7b253c2831"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 3,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422738131866972161",
+      "created_at": "2021-08-04T01:56:18.000Z",
+      "text": "Events and Logs are great functionalities of #Ethereum .\nUseful for debugging, capturing etc.\n\nBut some are using those for .... 😬\nAt least do not cheat ppl with good functionalities",
+      "favorite_count": 69,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        183
+      ],
+      "hashtags": [
+        "Ethereum"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 11,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1674402257952215043",
+      "created_at": "2023-06-29T12:59:41.000Z",
+      "text": "Me: An orca whale is jumping out of the sea, Rick and Morty, cartoon\n\nAnd AI model generated above gif👆\n😍🥰\n\nstill not good at the resolution, but this is a big milestone for us💪",
+      "favorite_count": 112,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        181
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 66,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1427818645393223691",
+      "created_at": "2021-08-18T02:24:27.000Z",
+      "text": "The Final (#Non-Fungible) Frontier: How @StarLinkETH ($STARL) Is Leading A New #Tokenized #Virtual #RealEstate #SpaceRace\n\n#metaverse #starl #NFT #ERC20 #ETH #gaming #DeFi #Leashdev @StarLinkMoe @woof_decentra #token #utilitytoken #dao #cryptosaucenews https://t.co/z7cP5Q6Gob",
+      "favorite_count": 107,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        276
+      ],
+      "hashtags": [
+        "Non",
+        "Tokenized",
+        "Virtual",
+        "RealEstate",
+        "SpaceRace",
+        "metaverse",
+        "starl",
+        "NFT",
+        "ERC20",
+        "ETH",
+        "gaming",
+        "DeFi",
+        "Leashdev",
+        "token",
+        "utilitytoken",
+        "dao",
+        "cryptosaucenews"
+      ],
+      "urls": [
+        "https://cryptosauce.news/2021/08/17/the-final-non-fungible-frontier-how-starl-starl-is-leading-a-new-tokenized-virtual-real-estate-space-race/"
+      ],
+      "user_mentions": [
+        "StarLinkETH",
+        "StarLinkMoe",
+        "woof_decentra"
+      ],
+      "symbols": [],
+      "media": [],
+      "user_id": "1358221616400982016",
+      "user_name": "CRYPTOsauce.news",
+      "user_screen_name": "cryptosaucenews",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1365726280080121872/U7HCPmww_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 16,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1392829708023201799",
+      "created_at": "2021-05-13T13:10:54.000Z",
+      "text": "Performance of #Uniswap's Hot Pair (Last 24H) 🦄\n\nWelcome $KUMA to our $DOGE family 🐶🏡\n\nCongratulations $KUMA and $KISHU gains in 24h despite the downtrend of the world market 🎉🥳🥳\n\n$TRU $LEASH $SHIB $HOKK $AKITA $ERSDL $ELON #JINDOGE https://t.co/ACtOFcQniD",
+      "favorite_count": 28,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        238
+      ],
+      "hashtags": [
+        "Uniswap",
+        "JINDOGE"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "KUMA",
+        "DOGE",
+        "KUMA",
+        "KISHU",
+        "TRU",
+        "LEASH",
+        "SHIB",
+        "HOKK",
+        "AKITA",
+        "ERSDL",
+        "ELON"
+      ],
+      "media": [
+        "https://x.com/Gems_Radar/status/1392829708023201799/photo/1"
+      ],
+      "user_id": "1358640864482889729",
+      "user_name": "Degen Radar",
+      "user_screen_name": "Degen_Radar",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1891762025086451712/3RcTKmbc_normal.png",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 6,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1412248027545301003",
+      "created_at": "2021-07-06T03:12:22.000Z",
+      "text": "Love this community. https://t.co/Yg9NtY0hXq",
+      "favorite_count": 109,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        20
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1412248027545301003/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 11,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1410729801460056067",
+      "created_at": "2021-07-01T22:39:29.000Z",
+      "text": "Okay, looks like $STARL is listed on Coingecko.\nSuper fast.. 😉\n\n$Starl #Coingecko",
+      "favorite_count": 93,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        82
+      ],
+      "hashtags": [
+        "Coingecko"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "STARL",
+        "Starl"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 6,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1455527767911641097",
+      "created_at": "2021-11-02T13:30:36.000Z",
+      "text": "Congrats 👏👏",
+      "favorite_count": 206,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        13
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 60,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1430151410474127362",
+      "created_at": "2021-08-24T12:54:01.000Z",
+      "text": "Do you think Tokenized Profile in the #Metaverse will be huge???",
+      "favorite_count": 212,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        64
+      ],
+      "hashtags": [
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 126,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1460229482028011523",
+      "created_at": "2021-11-15T12:53:32.000Z",
+      "text": "Daily volume of $STARL overpassed $UNI\nCoin of the future, not only day https://t.co/cZduH402yG",
+      "favorite_count": 541,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        71
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "STARL",
+        "UNI"
+      ],
+      "media": [
+        "https://x.com/woof_decentra/status/1460229482028011523/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 152,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1448110780818198529",
+      "created_at": "2021-10-13T02:18:09.000Z",
+      "text": "Ownership of Leash's orchestrator renounced.\n$LEASH is now 101% safu.\n\nhttps://t.co/PD7Vrmzk6z",
+      "favorite_count": 130,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        94
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/tx/0x6de1ca28500f19633c0844aa4ca5c5e636b3298d38bfae4a49a70319157e2a74"
+      ],
+      "user_mentions": [],
+      "symbols": [
+        "LEASH"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 31,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1405495555850051587",
+      "created_at": "2021-06-17T12:00:28.000Z",
+      "text": "Me is Me. One Dev - Building Decentralization.\n$LEASH $KUMA #LEASHTOKEN #kuma https://t.co/g84xCJ8xUG",
+      "favorite_count": 139,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        77
+      ],
+      "hashtags": [
+        "LEASHTOKEN",
+        "kuma"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "LEASH",
+        "KUMA"
+      ],
+      "media": [
+        "https://x.com/woof_decentra/status/1405495555850051587/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 14,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1415047505096548352",
+      "created_at": "2021-07-13T20:36:30.000Z",
+      "text": "Here you go, Starlink woofpaper v1.0\n\nhttps://t.co/1VKHL5RnGy",
+      "favorite_count": 147,
+      "lang": "nl",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        61
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.starltoken.com/WHITEPAPER_1.0.pdf"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 23,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1411435425789448193",
+      "created_at": "2021-07-03T21:23:23.000Z",
+      "text": "New SpaceX Starlink cover shows transfer orbit from Earth to Mars https://t.co/vwWeuhWCoP",
+      "favorite_count": 85900,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        65
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/elonmusk/status/1411435425789448193/photo/1"
+      ],
+      "user_id": "44196397",
+      "user_name": "Elon Musk",
+      "user_screen_name": "elonmusk",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "",
+      "conversation_count": 5479,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1780577979313066464",
+      "created_at": "2024-04-17T12:44:06.000Z",
+      "text": "We will remove the tax until phase3.\nEnjoy your trading.\n\nhttps://t.co/LA1RkKi7S6\n\nhttps://t.co/8Zm0MeeKYp",
+      "favorite_count": 25,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        106
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/tx/0xc81fb0790a7c9d84a264572590eac13d635cc984ef6737fb1f436708d9d690fe",
+        "https://etherscan.io/tx/0x008bd7bb82ae42e407f01bb3ec9925aa164f3d462f553ec266ba5d4f75388bb6"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 26,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1424784322410733568",
+      "created_at": "2021-08-09T17:27:08.000Z",
+      "text": "$SHIB are you ready to rekindle the meme magic?\n\n♻️ RT to spread the magic 🚀🚀🚀\n\n#SHIBARMY $BONE $TREES $LEASH #SAFETREES \nhttps://t.co/xHNnYytjc2",
+      "favorite_count": 723,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        148
+      ],
+      "hashtags": [
+        "SHIBARMY",
+        "SAFETREES"
+      ],
+      "urls": [
+        "https://www.fastcompany.com/90664115/coin-burn-shiba-inu-meme-stock-shib"
+      ],
+      "user_mentions": [],
+      "symbols": [
+        "SHIB",
+        "BONE",
+        "TREES",
+        "LEASH"
+      ],
+      "media": [],
+      "user_id": "1355918864509509637",
+      "user_name": "Shiba Inu",
+      "user_screen_name": "ShibainuCoin",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1355925264740589573/k0_HqWBU_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 52,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1461521925717442561",
+      "created_at": "2021-11-19T02:29:15.000Z",
+      "text": "Magic from #StarLinkETH #NFTGaming  dev team\nBeautiful~ @StarLinkETH #Metaverse https://t.co/p5lWLIi0mn",
+      "favorite_count": 460,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        79
+      ],
+      "hashtags": [
+        "StarLinkETH",
+        "NFTGaming",
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [
+        "StarLinkETH"
+      ],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1461521925717442561/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 103,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1410747113500119045",
+      "created_at": "2021-07-01T23:48:16.000Z",
+      "text": "$STARL might be governance token of StarLink family",
+      "favorite_count": 115,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        51
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "STARL"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 7,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1800480619946013039",
+      "created_at": "2024-06-11T10:50:05.000Z",
+      "text": "Updated DexTools. Super fast! 🥰\n\nhttps://t.co/UBcCr09tJi",
+      "favorite_count": 14,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        57
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.dextools.io/app/en/ether/pair-explorer/0xff74c0a96eef892afaa856a36dbbef2adf276b46"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425526681687584770",
+      "created_at": "2021-08-11T18:37:00.000Z",
+      "text": "Hmm.. Rebasing may be used in a variety of ways.\nBut still Supply-Elastic is the key.\n\nhttps://t.co/wYF11up4sF",
+      "favorite_count": 101,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        110
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://academy.binance.com/en/articles/elastic-supply-tokens-explained"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 17,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1411621693324337159",
+      "created_at": "2021-07-04T09:43:33.000Z",
+      "text": "To be clear, F9 is not my token",
+      "favorite_count": 67,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        31
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 10,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1441203054842245120",
+      "created_at": "2021-09-24T00:49:19.000Z",
+      "text": "Dropping Lil's tunes?",
+      "favorite_count": 1246,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        21
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 22,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1453914954025689091",
+      "created_at": "2021-10-29T02:41:52.000Z",
+      "text": "This WOOFABLE SSLP on ShibaSwap has seen a daily 120% increase $starl\n\nYou can get $starl on ShibaSwap now🔥 \n\nYou can also provide liquidity (dig) and earn $bone rewards on ShibaSwap and the APR% is 140% currently\n\n#USESHIBASWAP @StarLinkETH https://t.co/ELzOxKyLkZ",
+      "favorite_count": 441,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        242
+      ],
+      "hashtags": [
+        "USESHIBASWAP"
+      ],
+      "urls": [],
+      "user_mentions": [
+        "StarLinkETH"
+      ],
+      "symbols": [
+        "starl",
+        "starl",
+        "bone"
+      ],
+      "media": [
+        "https://x.com/ShibaAustralia/status/1453914954025689091/photo/1"
+      ],
+      "user_id": "1218421413503094785",
+      "user_name": "Lover of Dogs",
+      "user_screen_name": "ShibaAustralia",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1613824021346529281/e7qw3yD2_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 130,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1430017817428987916",
+      "created_at": "2021-08-24T04:03:10.000Z",
+      "text": "Okay, $DBUY peg to #Tesla stock.",
+      "favorite_count": 254,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        32
+      ],
+      "hashtags": [
+        "Tesla"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "DBUY"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 68,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1447484925813288965",
+      "created_at": "2021-10-11T08:51:13.000Z",
+      "text": "Finally left the hospital, lol",
+      "favorite_count": 261,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        30
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 110,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1423676638278021123",
+      "created_at": "2021-08-06T16:05:35.000Z",
+      "text": "summoned up courage to burn tokens from the pocket..",
+      "favorite_count": 206,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        52
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 688,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422498387446751234",
+      "created_at": "2021-08-03T10:03:38.000Z",
+      "text": "Season 1 Contributors\n\nMoe, Data Karma, Mia, Kevin, Flip, Immpeccablez, Horacio, Zeldris, Bang ,, ❤️\n\nAnd me... 😉",
+      "favorite_count": 129,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        114
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 28,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1764756405611868652",
+      "created_at": "2024-03-04T20:54:49.000Z",
+      "text": "Oracle is a mysterious, decentralized solution for blockchain.\nI am excited to announce that we will soon be releasing a new Oracle project. named woof oracle?🤔\nI always love 100% decentralization.🥰",
+      "favorite_count": 77,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        200
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 98,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1472772832312852482",
+      "created_at": "2021-12-20T03:36:20.000Z",
+      "text": "#STARL  Secondary Marketplace is now ready to launch. 💥",
+      "favorite_count": 545,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        56
+      ],
+      "hashtags": [
+        "STARL"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 167,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1474351711687180293",
+      "created_at": "2021-12-24T12:10:14.000Z",
+      "text": "May joy and peace be yours during this happy season of Christmas, may the family atmosphere fill the beautiful interiors of your homes. I would like to thank all the community for your great support through 2021.\nMerry X-Mas, Happy New Year 🎀\nWoof wishes you all the best https://t.co/b2k1YfUuS5",
+      "favorite_count": 447,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        272
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1474351711687180293/video/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 121,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1855279859108360618",
+      "created_at": "2024-11-09T16:02:42.000Z",
+      "text": "Spread brrrrrrrrrrrrrrrrrrrrrrrr",
+      "favorite_count": 15,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        32
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 15,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1428360572320370695",
+      "created_at": "2021-08-19T14:17:52.000Z",
+      "text": "#Metaverse  will win. No doubt",
+      "favorite_count": 167,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        30
+      ],
+      "hashtags": [
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 36,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1414634823222657027",
+      "created_at": "2021-07-12T17:16:39.000Z",
+      "text": "burly troopers",
+      "favorite_count": 73,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        14
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 4,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1776224250585665697",
+      "created_at": "2024-04-05T12:23:56.000Z",
+      "text": "Happy Friday!\n\nWe finally deployed Wrapped WFO(Wwfo) contract!\nNow $WFO holders can wrap $WFO token with Wwfo and delegate power to others.\n\nhttps://t.co/QGs86Wf9Bn\n\nJoin our telegram group to get more info!\nhttps://t.co/qYVdl1LxIc",
+      "favorite_count": 47,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        231
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/address/0xd3f4a5b14e0ecb8b4f35bf09ec701cb0dd293921#writeContract",
+        "https://t.me/wooforacles"
+      ],
+      "user_mentions": [],
+      "symbols": [
+        "WFO",
+        "WFO"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 55,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1432698224570212357",
+      "created_at": "2021-08-31T13:34:09.000Z",
+      "text": "Surely #Metaverse projects will integrate AI someday as it is the future of human beings\nTrue, metaverse is more than just a game\nWe are a huge and long-run project https://t.co/H2UcUQUTmc",
+      "favorite_count": 191,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        164
+      ],
+      "hashtags": [
+        "Metaverse"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1432698224570212357/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 65,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1856636887877730456",
+      "created_at": "2024-11-13T09:55:03.000Z",
+      "text": "Imagine that @elonmusk says brrrrrrrrrr.. LOL",
+      "favorite_count": 38,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        45
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "elonmusk"
+      ],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 34,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1855896359053799463",
+      "created_at": "2024-11-11T08:52:27.000Z",
+      "text": "🎓April 2024\n- Early Access to Brrr PnL Accounting Bot: Early access for top holders to our trade analytics and accounting solution.",
+      "favorite_count": 10,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        132
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 1,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1419666292638814209",
+      "created_at": "2021-07-26T14:29:54.000Z",
+      "text": "Now all wants to become metaverse.\n\nhttps://t.co/vyRYMeY3ng",
+      "favorite_count": 160,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        59
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.theverge.com/22588022/mark-zuckerberg-facebook-ceo-metaverse-interview"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 40,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1687490560011956224",
+      "created_at": "2023-08-04T15:47:56.000Z",
+      "text": "Woof, It’s time to unleash the excitement $LEASH is now live on @StealthEX_io 🌌 Buckle up, we’re about to embark on an epic crypto adventure 🚀🗺️ #SHIBARMY #SummerOfShibarium",
+      "favorite_count": 3236,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        176
+      ],
+      "hashtags": [
+        "SHIBARMY",
+        "SummerOfShibarium"
+      ],
+      "urls": [],
+      "user_mentions": [
+        "StealthEX_io"
+      ],
+      "symbols": [
+        "LEASH"
+      ],
+      "media": [],
+      "user_id": "1356248804899565569",
+      "user_name": "Shib",
+      "user_screen_name": "Shibtoken",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1934993839774646272/4fAvLiz-_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Square",
+      "conversation_count": 194,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1425500740106084359",
+      "created_at": "2021-08-11T16:53:55.000Z",
+      "text": "Report from the Starlink game devs:\n-Milestone 3 \"Customization\" (in about a week)\n-Milestone 4 \"NPCs\" (in about two weeks)\n-Milestone 5 \"Art Pipeline\" (in about 3 weeks)\n-Milestone 6 \"Nightquest\" (in about 4 weeks)\n...\nI believe STARL is my entire life itself",
+      "favorite_count": 195,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        260
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 418,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1773525879588602292",
+      "created_at": "2024-03-29T01:41:34.000Z",
+      "text": "Our developers made the UI for our wooforacle.👏\nhttps://t.co/Eeeqnhi6n0\nYou can also click Launch App at https://t.co/KJyQhDjyQo\nAdditionally, You can now view the token logo and token details on Etherscan as well.\nWe are planning to release Wrapped WFO soon. Stay tuned😉",
+      "favorite_count": 46,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        273
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://app.wooforacle.com/",
+        "https://wooforacle.com"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 47,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1427609292912283650",
+      "created_at": "2021-08-17T12:32:33.000Z",
+      "text": "Why #2???",
+      "favorite_count": 129,
+      "lang": "und",
+      "display_text_range": [
+        0,
+        9
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 220,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1429801233544466432",
+      "created_at": "2021-08-23T13:42:33.000Z",
+      "text": "I agree",
+      "favorite_count": 264,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        7
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 121,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1413158302050103299",
+      "created_at": "2021-07-08T15:29:29.000Z",
+      "text": "@elonmusk @StarLinkETH @woof_decentra $STARL https://t.co/e3wnkFBbWv",
+      "favorite_count": 56,
+      "lang": "qme",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        10,
+        44
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        "elonmusk",
+        "StarLinkETH",
+        "woof_decentra"
+      ],
+      "symbols": [
+        "STARL"
+      ],
+      "media": [
+        "https://x.com/KleenMike/status/1413158302050103299/photo/1"
+      ],
+      "user_id": "1216907504283783168",
+      "user_name": "Mike Kleen | Warped",
+      "user_screen_name": "KleenMike",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1684780224695685120/tKS2LPVu_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 3,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1800467730434564102",
+      "created_at": "2024-06-11T09:58:52.000Z",
+      "text": "Dear Community,\n\nDuring our mainnet testing, one of our developers inadvertently initiated a trade. Despite this, we have decided to proceed with our current contract.\nAccident is accident but it's not bad signal.\nhttps://t.co/GmPoeedUQ8\n\nhttps://t.co/agLd21iWk6",
+      "favorite_count": 8,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        262
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/tx/0xb3dd9557a7483817230f0dfd89ce2e3dff9a20dc8c10af120d91626417b55247",
+        "https://etherscan.io/tx/0x5dc699f01d7e431156ba0a552bfe57aaf7928f59be8b8f6b4ff35760e3960a07"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1800835265227080188",
+      "created_at": "2024-06-12T10:19:19.000Z",
+      "text": "Welcome to the Chinese Community!\n\nWe are pleased to announce the creation of our official Telegram group for the Chinese community. Thank you to everyone in the Chinese community who loves Kanji.\ntelegram group of chinese community: https://t.co/Djd9OrRN9m",
+      "favorite_count": 22,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        257
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://t.me/kanjiclubchinese"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 0,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1430152163058061317",
+      "created_at": "2021-08-24T12:57:01.000Z",
+      "text": "Means that Profiles in the #StarLinkETH ecosystem will be tokenized.",
+      "favorite_count": 173,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        68
+      ],
+      "hashtags": [
+        "StarLinkETH"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 33,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1454979959844265985",
+      "created_at": "2021-11-01T01:13:49.000Z",
+      "text": "https://t.co/VtwK8hezSO",
+      "favorite_count": 508,
+      "lang": "zxx",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        0
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1454979959844265985/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 120,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1441374378738925570",
+      "created_at": "2021-09-24T12:10:05.000Z",
+      "text": "Our marketplace is live now\nAbsolutely amazing  😃\nWe are working hard to make it better\nhttps://t.co/iKSFMoNpOr https://t.co/f7FklBbFKw",
+      "favorite_count": 169,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        112
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://market.starltoken.com"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1441374378738925570/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 30,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1451470122502090755",
+      "created_at": "2021-10-22T08:46:58.000Z",
+      "text": "How's Warp Nexus going?",
+      "favorite_count": 149,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        23
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 52,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1417281927598415881",
+      "created_at": "2021-07-20T00:35:18.000Z",
+      "text": "Starlink official github - https://t.co/aPgQ7fEFO4\n\nMake contributions as the member of starlink family",
+      "favorite_count": 99,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        103
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://github.com/StarlinkMeta"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 16,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1434239540009398273",
+      "created_at": "2021-09-04T19:38:47.000Z",
+      "text": "We will introduce pixelnauts soon\nMight be huge event of September for StarLink family\n🐼💪🤠",
+      "favorite_count": 1197,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        93
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 133,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1771218534061814119",
+      "created_at": "2024-03-22T16:53:00.000Z",
+      "text": "This week our smart contract developers have been working really hard on the wrapped wfo token and testing many of its features on the testnet.\nAlso new UI will be ready next week!\nI deliver the rockets, you launch them. As always",
+      "favorite_count": 52,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        230
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 49,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1414631196181483520",
+      "created_at": "2021-07-12T17:02:14.000Z",
+      "text": "Anyone can say their tokens are related to woof, but it's not truth.",
+      "favorite_count": 98,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        68
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 17,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1426214271323557903",
+      "created_at": "2021-08-13T16:09:14.000Z",
+      "text": "realizing potential\npotential impacts",
+      "favorite_count": 145,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        37
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 59,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1498484247258353669",
+      "created_at": "2022-03-01T02:24:19.000Z",
+      "text": "JUMBO or LAMBO? 😇",
+      "favorite_count": 337,
+      "lang": "es",
+      "display_text_range": [
+        0,
+        18
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 137,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1428711132798210050",
+      "created_at": "2021-08-20T13:30:52.000Z",
+      "text": "Oh, impressed..\nBig thanks to Mia and all game devs\nhttps://t.co/Zi0wMsNfDK",
+      "favorite_count": 149,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        75
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.youtube.com/watch?v=dJaqB8C8jvY"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 38,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1768726840401674331",
+      "created_at": "2024-03-15T19:51:54.000Z",
+      "text": "A nice sneak peek for you all :)\n\n1 ux Disigner Our 2 smart contract devs, 3 front-end devs working very hard on it 🚀\nhttps://t.co/Ohcrx9P4SK\nFrom now on you guys can watch us work!!\n@woof_decentra \nCheck: https://t.co/0Hpdw5QMgH\nRemember this last picture 👇\nWe will show you 👀 https://t.co/Fthwx8NNJE",
+      "favorite_count": 31,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        280
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://tinyurl.com/5yr39kv4",
+        "https://t.me/wooforacles"
+      ],
+      "user_mentions": [
+        "woof_decentra"
+      ],
+      "symbols": [],
+      "media": [
+        "https://x.com/WFOracle/status/1768726840401674331/photo/1"
+      ],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 11,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1437765592274989062",
+      "created_at": "2021-09-14T13:10:04.000Z",
+      "text": "Do you know it's pixelnaut?",
+      "favorite_count": 105,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        27
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 22,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1692877759318565282",
+      "created_at": "2023-08-19T12:34:44.000Z",
+      "text": "LOL.. \nDO YOU WANNA FUG DHAT WITH YOUR SMALL BENIS? 😱\nIs that Benis or *enis? 🤣🤣 https://t.co/l9ge0htiOP",
+      "favorite_count": 104,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        83
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1692877759318565282/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 60,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1433069096535396361",
+      "created_at": "2021-09-01T14:07:52.000Z",
+      "text": "Wow.. seems like a social profile to me. 😍\nBut more than it?\nThanks to dev team https://t.co/1PKt5Kzes8",
+      "favorite_count": 233,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        80
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1433069096535396361/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 85,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1767107077451706760",
+      "created_at": "2024-03-11T08:35:33.000Z",
+      "text": "Listed on CMC\n@woof_decentra \n\nNew Coin Symbol: $WFO\n\nLearn More: https://t.co/GQca9XGvP1\n\n👁️ Watchlist: Track Tokens\n📊 Portfolio: Track Your PnL\n✉️ Newsletter: Subscribe to Updates\n👥 CMC Community: Follow Projects\nTelegram: https://t.co/0Hpdw5QMgH",
+      "favorite_count": 44,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        251
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://coinmarketcap.com/currencies/wooforacle/",
+        "https://t.me/wooforacles"
+      ],
+      "user_mentions": [
+        "woof_decentra"
+      ],
+      "symbols": [
+        "WFO"
+      ],
+      "media": [],
+      "user_id": "1765379120584601600",
+      "user_name": "WoofOracle",
+      "user_screen_name": "WFOracle",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1765382545661698048/qO_zQu6X_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 18,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1414036252010057734",
+      "created_at": "2021-07-11T01:38:08.000Z",
+      "text": "Create, own, monetize virtual satellites with $STARL - FUTURE https://t.co/Av6CAcJqaj",
+      "favorite_count": 189,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        61
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "STARL"
+      ],
+      "media": [
+        "https://x.com/woof_decentra/status/1414036252010057734/video/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 15,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1437625689272770561",
+      "created_at": "2021-09-14T03:54:08.000Z",
+      "text": "When Snoop Dogg?",
+      "favorite_count": 195,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        16
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 45,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1403376240317378560",
+      "created_at": "2021-06-11T15:39:03.000Z",
+      "text": "$Kuma moonshot https://t.co/HKeziDcbcZ",
+      "favorite_count": 56,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        38
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.dextools.io/app/uniswap/pair-explorer/0x27fd2f5942049bcd601428c7bcede364180b4b3f"
+      ],
+      "user_mentions": [],
+      "symbols": [
+        "Kuma"
+      ],
+      "media": [],
+      "user_id": "766578266",
+      "user_name": "Crypto Messiah",
+      "user_screen_name": "lowkeyrich_",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1932098345863942145/GnYhhCTc_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 18,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1450990601126744064",
+      "created_at": "2021-10-21T01:01:32.000Z",
+      "text": "Our mission is to create a platform revolved around everyone’s love for music and art. \nEARSHOT will allow artists and fans to contribute to each other’s success without barriers. We believe the closer the connection between artists and fans, the better🕊🎶\n\n$DBUY #EARSHOT https://t.co/xGRikSSWel",
+      "favorite_count": 187,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        273
+      ],
+      "hashtags": [
+        "EARSHOT"
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "DBUY"
+      ],
+      "media": [
+        "https://x.com/DoontBuy/status/1450990601126744064/video/1"
+      ],
+      "user_id": "1425651913895333896",
+      "user_name": "DBUY",
+      "user_screen_name": "DoontBuy",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1491829666843439105/TOcI5ZdZ_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 38,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1410448840541413381",
+      "created_at": "2021-07-01T04:03:03.000Z",
+      "text": "https://t.co/Rl1Ob6QUTk",
+      "favorite_count": 23,
+      "lang": "zxx",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        23
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://etherscan.io/tx/0xdfa0160685689899985a2b783edefceb1f3d765dfb540f9107c9f01426e77438"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 1,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "tombstone",
+    "message": "This tweet is a tombstone (deleted or hidden)."
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1430747956571901953",
+      "created_at": "2021-08-26T04:24:29.000Z",
+      "text": "crypto metaverse + gaming industries",
+      "favorite_count": 317,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        36
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 136,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1394324865478316035",
+      "created_at": "2021-05-17T16:12:07.000Z",
+      "text": "Aped into $KUMA ! A Decentralized Meme Tokens that grew into a vibrant ecosystem \n\n@KumaInuOfficial is the bread of Japanese Shiba Inu. They are breeders!!\n\nThe next dog meme token. Deployed by the same address as $SHIB. Less than 1k holders so far.\n\nhttps://t.co/uRv73S1Hv6… https://t.co/uuqmdppGBM",
+      "favorite_count": 49,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        275
+      ],
+      "hashtags": [],
+      "urls": [
+        "http://dextools.io/app/uniswap/pa"
+      ],
+      "user_mentions": [
+        "KumaInuOfficial"
+      ],
+      "symbols": [
+        "KUMA",
+        "SHIB"
+      ],
+      "media": [
+        "https://x.com/Mr_LSD_Crypto/status/1394324865478316035/photo/1"
+      ],
+      "user_id": "1300755369241632769",
+      "user_name": "LSD",
+      "user_screen_name": "LSDinmysoul",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1923272091744477184/Nn01905A_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 4,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422377929833472003",
+      "created_at": "2021-08-03T02:04:59.000Z",
+      "text": "Tmr... https://t.co/mvhpdiOBTW",
+      "favorite_count": 201,
+      "lang": "und",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        6
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1422377929833472003/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 33,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1854911300289155249",
+      "created_at": "2024-11-08T15:38:11.000Z",
+      "text": "BRRR = Buy, Reinvest, Reap, Repeat!",
+      "favorite_count": 26,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        35
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 7,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1413508043799625732",
+      "created_at": "2021-07-09T14:39:14.000Z",
+      "text": "Ppl just thinking Metaverse is just NFT?\n\nThe tech of the Metaverse, it's not just NFT.\nIt's more like a digital universe and NFT is one of access points.\nThe Metaverse is an infinitely large.\nLiterally infinite...",
+      "favorite_count": 159,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        214
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 13,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1429304700218712068",
+      "created_at": "2021-08-22T04:49:30.000Z",
+      "text": "Doont Buy Ecosystem DAO named Doont Vote\nLol",
+      "favorite_count": 184,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        44
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 62,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1422587161321242633",
+      "created_at": "2021-08-03T15:56:24.000Z",
+      "text": "Looks like marketplace beta is live now.. 😀 https://t.co/IcBCfduAkt",
+      "favorite_count": 132,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        44
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1422587161321242633/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 16,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1855896361310277807",
+      "created_at": "2024-11-11T08:52:28.000Z",
+      "text": "🎓May 2024\n- Release of Brrr PnL Accounting Bot: Full launch of our accounting tool, providing detailed trade analysis and reporting.\n- Early Access to Brrr Web App: Bringing the BRRR ecosystem to a web-based platform with enhanced accessibility and functionality.",
+      "favorite_count": 10,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        264
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 1,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1448993496602271749",
+      "created_at": "2021-10-15T12:45:45.000Z",
+      "text": "Oh, Finished listing LIVING MODULES.\nJust watching the countdown. https://t.co/Y9rvPyaFyg",
+      "favorite_count": 120,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        65
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1448993496602271749/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 23,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1417933801125126144",
+      "created_at": "2021-07-21T19:45:36.000Z",
+      "text": "Starlink Ecosystem is fastly being built by Starlink family.\nBig thanks! https://t.co/mnusbNApW9",
+      "favorite_count": 165,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        72
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1417933801125126144/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 24,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1765013902138433538",
+      "created_at": "2024-03-05T13:58:01.000Z",
+      "text": "\"As we strive for a truly decentralized future, the integration of reliable real-world data through blockchain oracles is paramount, unlocking a multitude of possibilities for decentralized applications to thrive.\"\n\nWho says this? 🤔",
+      "favorite_count": 46,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        233
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 83,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1767214160952123614",
+      "created_at": "2024-03-11T15:41:03.000Z",
+      "text": "Happy Monday!\n\nCan you imagine something? https://t.co/6UbfxzfC4P",
+      "favorite_count": 44,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        41
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        "https://x.com/woof_decentra/status/1767214160952123614/photo/1"
+      ],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 54,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1412105396152541184",
+      "created_at": "2021-07-05T17:45:36.000Z",
+      "text": "Power of community. 💪\nNew website looks good.\nThanks to someone who made this.\n\nhttps://t.co/QIwaZX8EfI",
+      "favorite_count": 95,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        104
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://www.starltoken.com/"
+      ],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 10,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1455953935366242307",
+      "created_at": "2021-11-03T17:44:03.000Z",
+      "text": "What is the metaverse—and why does Mark Zuckerberg care so about it? https://t.co/AE2Qhv40DJ by @abebrown716 https://t.co/V6HvXxOTKO",
+      "favorite_count": 265,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "display_text_range": [
+        0,
+        108
+      ],
+      "hashtags": [],
+      "urls": [
+        "https://trib.al/W9zXCzA"
+      ],
+      "user_mentions": [
+        "abebrown716"
+      ],
+      "symbols": [],
+      "media": [
+        "https://x.com/Forbes/status/1455953935366242307/photo/1"
+      ],
+      "user_id": "91478624",
+      "user_name": "Forbes",
+      "user_screen_name": "Forbes",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": true,
+      "user_profile_image_shape": "Square",
+      "conversation_count": 115,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1765388925248450711",
+      "created_at": "2024-03-06T14:48:13.000Z",
+      "text": "Looks like $WFO is added on dextools...😉\nWaiting to list on Coingecko.\n\n$WFO $Dextools",
+      "favorite_count": 35,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        87
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [
+        "WFO",
+        "WFO"
+      ],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 32,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1419652796224208902",
+      "created_at": "2021-07-26T13:36:17.000Z",
+      "text": "Regarding Mysterio Token, it's not related to the Starlink team.\nAlso Starlink official twitter is not in my control, it's created &amp; owned by community, FYI.",
+      "favorite_count": 82,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        161
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 12,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id_str": "1437996111742976001",
+      "created_at": "2021-09-15T04:26:04.000Z",
+      "text": "Distribution, rewards, buybacks or whatever the best for the community\nTo be determined",
+      "favorite_count": 147,
+      "lang": "en",
+      "display_text_range": [
+        0,
+        87
+      ],
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [],
+      "user_id": "1304433918469238785",
+      "user_name": "Woof Decentra",
+      "user_screen_name": "woof_decentra",
+      "user_profile_image": "https://pbs.twimg.com/profile_images/1437736072260161537/nqpu7LbH_normal.jpg",
+      "user_verified": false,
+      "user_is_blue_verified": false,
+      "user_profile_image_shape": "Circle",
+      "conversation_count": 21,
+      "news_action_type": "conversation",
+      "isEdited": false,
+      "isStaleEdit": false
+    }
+  }
+]
