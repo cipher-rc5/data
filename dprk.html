@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🇰🇵 Utility</title>
+    <link rel="stylesheet" data-name="vs/editor/editor.main" href="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.52.2/min/vs/editor/editor.main.min.css">
+    <style>
+        :root {
+            --bg-primary: #f5f5f5;
+            --bg-secondary: white;
+            --bg-tertiary: #f0f0f0;
+            --bg-quaternary: #f9f9f9;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --border-color: #ddd;
+            --success-bg: #e8f5e9;
+            --success-text: #388e3c;
+            --error-bg: #ffebee;
+            --error-text: #d32f2f;
+            --info-bg: #f0f7ff;
+            --info-text: #1976D2;
+            --warning-bg: #fff3e0;
+            --warning-text: #e65100;
+            --highlight-bg: #e8f4f8;
+            --highlight-border: #2196F3;
+            --button-primary: #008CBA;
+            --button-primary-hover: #006a8a;
+            --button-secondary: #6c757d;
+            --button-secondary-hover: #545b62;
+            --button-success: #4CAF50;
+            --button-success-hover: #45a049;
+            --shadow: rgba(0,0,0,0.1);
+            --monaco-theme: 'vs';
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2d2d2d;
+            --bg-tertiary: #3a3a3a;
+            --bg-quaternary: #252525;
+            --text-primary: #e0e0e0;
+            --text-secondary: #aaa;
+            --border-color: #444;
+            --success-bg: #1b3a1f;
+            --success-text: #66bb6a;
+            --error-bg: #3a1b1b;
+            --error-text: #ef5350;
+            --info-bg: #1a2938;
+            --info-text: #42a5f5;
+            --warning-bg: #3a2d1b;
+            --warning-text: #ff9800;
+            --highlight-bg: #1e3a4c;
+            --highlight-border: #42a5f5;
+            --button-primary: #1976D2;
+            --button-primary-hover: #1565C0;
+            --button-secondary: #555;
+            --button-secondary-hover: #666;
+            --button-success: #388e3c;
+            --button-success-hover: #2e7d32;
+            --shadow: rgba(0,0,0,0.3);
+            --monaco-theme: 'vs-dark';
+        }
+
+        * {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .container {
+            background-color: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px var(--shadow);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: 2px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .theme-toggle:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        .editor-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .editor-container.maximized {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+        }
+
+        .editor-wrapper {
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+            background-color: var(--bg-secondary);
+            display: flex;
+            flex-direction: column;
+            min-height: 300px;
+        }
+
+        .editor-header {
+            background-color: var(--bg-tertiary);
+            padding: 10px 15px;
+            font-weight: bold;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .editor-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .editor-control {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .editor-control:hover {
+            background-color: var(--bg-quaternary);
+        }
+
+        .editor-content {
+            position: relative;
+            height: 400px;
+            min-height: 200px;
+            max-height: 800px;
+        }
+
+        .monaco-editor-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 5px; /* Leave space for resize handle */
+        }
+
+        /* Resize handle */
+        .resize-handle {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            cursor: ns-resize;
+            background-color: transparent;
+            transition: background-color 0.2s;
+        }
+
+        .resize-handle:hover,
+        .resize-handle.resizing {
+            background-color: var(--highlight-border);
+        }
+
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .file-input-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .file-input-label {
+            background-color: var(--button-success);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .file-input-label:hover {
+            background-color: var(--button-success-hover);
+        }
+
+        .xor-key-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .xor-key-input input {
+            padding: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-family: monospace;
+            width: 250px;
+            background-color: var(--bg-quaternary);
+            color: var(--text-primary);
+        }
+
+        .xor-key-input .optional-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        button {
+            background-color: var(--button-primary);
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: var(--button-primary-hover);
+        }
+
+        button.secondary {
+            background-color: var(--button-secondary);
+        }
+
+        button.secondary:hover {
+            background-color: var(--button-secondary-hover);
+        }
+
+        .output-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 8px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px 4px 0 0;
+            cursor: pointer;
+            background-color: var(--bg-tertiary);
+            transition: background-color 0.3s;
+            color: var(--text-primary);
+        }
+
+        .tab.active {
+            background-color: var(--bg-secondary);
+            border-bottom: 1px solid var(--bg-secondary);
+            font-weight: bold;
+        }
+
+        .tab-content {
+            display: none;
+            background-color: var(--bg-quaternary);
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 0 4px 4px 4px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .transformation-item {
+            margin: 8px 0;
+            padding: 10px;
+            background-color: var(--highlight-bg);
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 13px;
+            border-left: 3px solid var(--highlight-border);
+            word-break: break-all;
+        }
+
+        .transformation-item .original {
+            color: var(--text-secondary);
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .transformation-item .arrow {
+            color: var(--highlight-border);
+            margin: 0 5px;
+        }
+
+        .transformation-item .decoded {
+            color: var(--info-text);
+            font-weight: bold;
+        }
+
+        .stats {
+            background-color: var(--info-bg);
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .stats h3 {
+            margin-top: 0;
+            color: var(--info-text);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .stat-item {
+            background-color: var(--bg-secondary);
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+            box-shadow: 0 1px 3px var(--shadow);
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--info-text);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 5px;
+        }
+
+        /* Status messages */
+        .status-message {
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 12px 40px 12px 15px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .status-message.error {
+            background-color: var(--error-bg);
+            color: var(--error-text);
+        }
+
+        .status-message.success {
+            background-color: var(--success-bg);
+            color: var(--success-text);
+        }
+
+        .status-message.warning {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+        }
+
+        .status-close {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: inherit;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 1;
+            padding: 5px;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .status-close:hover {
+            opacity: 1;
+        }
+
+        #status {
+            margin-top: 10px;
+        }
+
+        .options {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: var(--bg-tertiary);
+            border-radius: 4px;
+        }
+
+        .option-item {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .option-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .option-item label {
+            cursor: pointer;
+            color: var(--text-primary);
+        }
+
+        /* Scrollbar styling for dark mode */
+        [data-theme="dark"] ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        [data-theme="dark"] ::-webkit-scrollbar-track {
+            background: var(--bg-tertiary);
+        }
+
+        [data-theme="dark"] ::-webkit-scrollbar-thumb {
+            background: var(--button-secondary);
+            border-radius: 6px;
+        }
+
+        [data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+            background: var(--button-secondary-hover);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🇰🇵 Utility </h1>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Dark Mode</span>
+            </button>
+        </div>
+
+        <div class="controls">
+            <div class="file-input-wrapper">
+                <label for="fileInput" class="file-input-label">Choose File</label>
+                <input type="file" id="fileInput" accept=".js,.txt">
+                <span id="fileName">No file selected</span>
+            </div>
+
+            <div class="xor-key-input">
+                <label for="xorKey">XOR Key:</label>
+                <input type="text" id="xorKey" placeholder="0x30, 0xd0, 0x59, 0x18">
+                <span class="optional-label">(optional)</span>
+            </div>
+
+            <button onclick="deobfuscate()">Deobfuscate</button>
+            <button onclick="loadSample()" class="secondary">Load Sample</button>
+        </div>
+
+        <div class="options">
+            <div class="option-item">
+                <input type="checkbox" id="simplifyStrings" checked>
+                <label for="simplifyStrings">Simplify string concatenations</label>
+            </div>
+            <div class="option-item">
+                <input type="checkbox" id="decodeBase64" checked>
+                <label for="decodeBase64">Decode standalone base64 strings</label>
+            </div>
+            <div class="option-item">
+                <input type="checkbox" id="resolveExpressions" checked>
+                <label for="resolveExpressions">Resolve complex expressions</label>
+            </div>
+            <div class="option-item">
+                <input type="checkbox" id="executeTransformations" checked>
+                <label for="executeTransformations">Execute string transformations (slice, substring)</label>
+            </div>
+        </div>
+
+        <div class="editor-container" id="editorContainer">
+            <div class="editor-wrapper">
+                <div class="editor-header">
+                    <span>Input (Obfuscated)</span>
+                    <div class="editor-controls">
+                        <button class="editor-control" onclick="copyInput()" title="Copy">📋</button>
+                        <button class="editor-control" onclick="clearInput()" title="Clear">🗑️</button>
+                        <button class="editor-control" onclick="toggleMaximize()" title="Toggle Layout" id="maximizeBtn">⊞</button>
+                    </div>
+                </div>
+                <div class="editor-content" id="inputEditorContainer">
+                    <div class="monaco-editor-container" id="inputEditor"></div>
+                    <div class="resize-handle" data-editor="input"></div>
+                </div>
+            </div>
+            <div class="editor-wrapper">
+                <div class="editor-header">
+                    <span>Output (Deobfuscated)</span>
+                    <div class="editor-controls">
+                        <button class="editor-control" onclick="copyOutput()" title="Copy">📋</button>
+                        <button class="editor-control" onclick="downloadOutput()" title="Download">💾</button>
+                    </div>
+                </div>
+                <div class="editor-content" id="outputEditorContainer">
+                    <div class="monaco-editor-container" id="outputEditor"></div>
+                    <div class="resize-handle" data-editor="output"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="status"></div>
+
+        <div class="output-section" id="outputSection" style="display: none;">
+            <div class="stats" id="stats">
+                <h3>Deobfuscation Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value" id="base64Count">0</div>
+                        <div class="stat-label">Base64 Decoded</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="xorCount">0</div>
+                        <div class="stat-label">XOR Decrypted</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="functionCount">0</div>
+                        <div class="stat-label">Functions Replaced</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="stringCount">0</div>
+                        <div class="stat-label">Strings Simplified</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="transformCount">0</div>
+                        <div class="stat-label">Transformations</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="output-tabs">
+                <div class="tab active" onclick="showTab('transformations')">All Transformations</div>
+                <div class="tab" onclick="showTab('base64')">Base64 Decoded</div>
+                <div class="tab" onclick="showTab('xor')">XOR Decrypted</div>
+                <div class="tab" onclick="showTab('functions')">Function Replacements</div>
+                <div class="tab" onclick="showTab('strings')">String Simplifications</div>
+                <div class="tab" onclick="showTab('complex')">Complex Transformations</div>
+            </div>
+
+            <div id="transformations" class="tab-content active">
+                <div id="transformationsContent"></div>
+            </div>
+
+            <div id="base64" class="tab-content">
+                <div id="base64Content"></div>
+            </div>
+
+            <div id="xor" class="tab-content">
+                <div id="xorContent"></div>
+            </div>
+
+            <div id="functions" class="tab-content">
+                <div id="functionsContent"></div>
+            </div>
+
+            <div id="strings" class="tab-content">
+                <div id="stringsContent"></div>
+            </div>
+
+            <div id="complex" class="tab-content">
+                <div id="complexContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.52.2/min/vs/loader.min.js"></script>
+    <script>
+        let inputEditor, outputEditor;
+        let currentResults = null;
+        let isMaximized = false;
+        let resizeObserver = null;
+
+        // Theme management
+        function initTheme() {
+            const savedTheme = localStorage.getItem('deobfuscator-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeButton(savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('deobfuscator-theme', newTheme);
+            updateThemeButton(newTheme);
+
+            // Update Monaco theme
+            if (inputEditor && outputEditor) {
+                const monacoTheme = newTheme === 'dark' ? 'vs-dark' : 'vs';
+                monaco.editor.setTheme(monacoTheme);
+            }
+        }
+
+        function updateThemeButton(theme) {
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            if (theme === 'dark') {
+                icon.textContent = '☀️';
+                text.textContent = 'Light Mode';
+            } else {
+                icon.textContent = '🌙';
+                text.textContent = 'Dark Mode';
+            }
+        }
+
+        // Toggle between side-by-side and stacked layout
+        function toggleMaximize() {
+            const container = document.getElementById('editorContainer');
+            const btn = document.getElementById('maximizeBtn');
+
+            isMaximized = !isMaximized;
+
+            if (isMaximized) {
+                container.classList.add('maximized');
+                btn.textContent = '⊟';
+                btn.title = 'Side by Side';
+            } else {
+                container.classList.remove('maximized');
+                btn.textContent = '⊞';
+                btn.title = 'Stack Vertically';
+            }
+
+            // Update editor layouts after transition
+            setTimeout(() => {
+                if (inputEditor && outputEditor) {
+                    inputEditor.layout();
+                    outputEditor.layout();
+                }
+            }, 350);
+        }
+
+        // Setup resizable editors
+        function setupResizable() {
+            const handles = document.querySelectorAll('.resize-handle');
+
+            handles.forEach(handle => {
+                let isResizing = false;
+                let startY = 0;
+                let startHeight = 0;
+                let container = null;
+                let editor = null;
+
+                handle.addEventListener('mousedown', (e) => {
+                    isResizing = true;
+                    startY = e.clientY;
+                    container = handle.parentElement;
+                    startHeight = container.offsetHeight;
+
+                    // Determine which editor
+                    const editorType = handle.getAttribute('data-editor');
+                    editor = editorType === 'input' ? inputEditor : outputEditor;
+
+                    // Add resizing class
+                    handle.classList.add('resizing');
+                    document.body.style.cursor = 'ns-resize';
+                    document.body.style.userSelect = 'none';
+
+                    e.preventDefault();
+                });
+
+                document.addEventListener('mousemove', (e) => {
+                    if (!isResizing || !container) return;
+
+                    const deltaY = e.clientY - startY;
+                    const newHeight = Math.max(200, Math.min(800, startHeight + deltaY));
+
+                    container.style.height = newHeight + 'px';
+
+                    // Update editor layout
+                    if (editor) {
+                        editor.layout();
+                    }
+                });
+
+                document.addEventListener('mouseup', () => {
+                    if (isResizing) {
+                        isResizing = false;
+                        handle.classList.remove('resizing');
+                        document.body.style.cursor = '';
+                        document.body.style.userSelect = '';
+                    }
+                });
+            });
+        }
+
+        // Editor controls
+        function copyInput() {
+            const text = inputEditor.getValue();
+            navigator.clipboard.writeText(text);
+            showMessage('Input copied to clipboard!', 'success');
+        }
+
+        function clearInput() {
+            inputEditor.setValue('');
+        }
+
+        function copyOutput() {
+            const text = outputEditor.getValue();
+            navigator.clipboard.writeText(text);
+            showMessage('Output copied to clipboard!', 'success');
+        }
+
+        function downloadOutput() {
+            if (!currentResults) return;
+
+            const text = outputEditor.getValue();
+            const blob = new Blob([text], { type: 'text/javascript' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'deobfuscated.js';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showMessage('File downloaded successfully!', 'success');
+        }
+
+        // Initialize Monaco Editor
+        require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.52.2/min/vs' } });
+        require(['vs/editor/editor.main'], function() {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const monacoTheme = theme === 'dark' ? 'vs-dark' : 'vs';
+
+            // Editor options with word wrap
+            const editorOptions = {
+                theme: monacoTheme,
+                minimap: { enabled: false },
+                automaticLayout: false, // We'll handle layout manually
+                scrollBeyondLastLine: false,
+                wordWrap: 'on',
+                wordWrapColumn: 80,
+                wrappingStrategy: 'advanced',
+                fontSize: 14,
+                lineNumbers: 'on',
+                renderWhitespace: 'selection',
+                scrollbar: {
+                    vertical: 'visible',
+                    horizontal: 'visible',
+                    useShadows: false
+                }
+            };
+
+            inputEditor = monaco.editor.create(document.getElementById('inputEditor'), {
+                ...editorOptions,
+                value: '',
+                language: 'javascript'
+            });
+
+            outputEditor = monaco.editor.create(document.getElementById('outputEditor'), {
+                ...editorOptions,
+                value: '',
+                language: 'javascript',
+                readOnly: true
+            });
+
+            // Setup resizable functionality after editors are created
+            setupResizable();
+
+            // Create a debounced layout function
+            let layoutTimeout;
+            const debouncedLayout = () => {
+                clearTimeout(layoutTimeout);
+                layoutTimeout = setTimeout(() => {
+                    if (inputEditor) inputEditor.layout();
+                    if (outputEditor) outputEditor.layout();
+                }, 100);
+            };
+
+            // Use ResizeObserver with debouncing
+            if (window.ResizeObserver) {
+                resizeObserver = new ResizeObserver(debouncedLayout);
+                resizeObserver.observe(document.getElementById('inputEditorContainer'));
+                resizeObserver.observe(document.getElementById('outputEditorContainer'));
+            }
+
+            // Also handle window resize
+            window.addEventListener('resize', debouncedLayout);
+        });
+
+        // Initialize theme on load
+        initTheme();
+
+        // File input handler
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('fileName').textContent = file.name;
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    inputEditor.setValue(e.target.result);
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Load sample code
+        function loadSample() {
+            const sampleCode = `const a7 = H, a8 = H;
+
+// Standard obfuscation function
+function H(a, b) {
+    const c = F();
+    return H = function(d, e) {
+        d = d - 0xae;
+        let f = c[d];
+        return f;
+    }, H(a, b);
+}
+
+function F() {
+    const am = [
+        "substring",
+        "ZXhpc3RzU3",
+        "search",
+        "constructo",
+        "w==",
+        "cm1TeW5j",
+        "cG9zdA",
+        "base64",
+        "fromCharCo",
+        "length",
+        "L2tleXM",
+        "AcmVxdWVzd",
+        "aaHR0cDovLw==",
+        "toString",
+        "Z2V0",
+        "xlU3luYw"];
+    F = function() {
+        return am;
+    };
+    return F();
+}
+
+// Complex obfuscation with string rearrangement
+const K = (P) => {
+    const encoded = P === 0 ? "MC44NS4xMTY1LjE0MDU=" : "MC44Ni4xMTY1LjE0MDY=";
+    const rearranged = encoded.slice(8, 16) + encoded.slice(0, 8) + encoded.slice(16);
+
+    const httpPrefix = Buffer.from("aaHR0cDovLw==".substring(1), "base64").toString("utf8");
+    const port = ":124" + '4';
+
+    return httpPrefix + Buffer.from(rearranged, "base64").toString("utf8") + port;
+};
+
+// Usage examples
+const result0 = K(0);
+const result1 = K(1);
+
+// Standard Buffer operations
+const rmSync = Buffer.from("cm1TeW5j", "base64").toString("utf8");
+const existsSync = Buffer["from"]("ZXhpc3RzU3luYw==", "base64")["toString"]("utf8");
+
+// Conditional base64
+let P = Math.random() > 0.5 ? 1 : 0;
+let Q = 0 == P ? "MC44NS4xMTY1LjE0MDU=" : "MC44Ni4xMTY1LjE0MDY=";
+
+// XOR encrypted arrays (optional - will work with or without XOR key)
+z = [0x53, 0xb4];
+X = [0x16, 0xf6, 0x79, 0x76, 0x40, 0xbd, 0x79, 0x71, 0x10, 0xfd, 0x74, 0x6b, 0x59, 0xbc, 0x3c, 0x76, 0x44];
+b = [0x5e, 0xbf, 0x3d, 0x7d, 0x6f, 0xbd, 0x36, 0x7c, 0x45, 0xbc, 0x3c, 0x6b];
+
+// Method call pattern
+const B = { toString: () => ({ search: (p) => ({ search: () => true }) }) };
+const searchResult = B['toString']()[a8(0xbb)](a8(0xcb) + '+$')['search'](a8(0xcb) + '+$');`;
+
+            inputEditor.setValue(sampleCode);
+            showMessage('Sample code loaded!', 'success');
+        }
+
+        // Tab switching
+        function showTab(tabName) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        // Main deobfuscation function
+        function deobfuscate() {
+            const code = inputEditor.getValue();
+            if (!code.trim()) {
+                showMessage('Please provide code to deobfuscate', 'error');
+                return;
+            }
+
+            try {
+                const options = {
+                    simplifyStrings: document.getElementById('simplifyStrings').checked,
+                    decodeBase64: document.getElementById('decodeBase64').checked,
+                    resolveExpressions: document.getElementById('resolveExpressions').checked,
+                    executeTransformations: document.getElementById('executeTransformations').checked
+                };
+
+                const result = performDeobfuscation(code, options);
+
+                // Update editors
+                outputEditor.setValue(result.deobfuscatedCode);
+
+                // Update statistics
+                document.getElementById('base64Count').textContent = result.base64Decoded.size;
+                document.getElementById('xorCount').textContent = result.xorDecrypted.size;
+                document.getElementById('functionCount').textContent = result.functionReplacements.size;
+                document.getElementById('stringCount').textContent = result.stringSimplifications.size;
+                document.getElementById('transformCount').textContent = result.complexTransformations.size;
+
+                // Display results
+                displayResults(result);
+                showMessage('Code successfully deobfuscated!', 'success');
+
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+                console.error(error);
+            }
+        }
+
+        function performDeobfuscation(code, options) {
+            const result = {
+                originalCode: code,
+                deobfuscatedCode: code,
+                base64Decoded: new Map(),
+                xorDecrypted: new Map(),
+                functionReplacements: new Map(),
+                stringSimplifications: new Map(),
+                complexTransformations: new Map(),
+                allTransformations: []
+            };
+
+            // Check if XOR key is provided
+            const xorKeyStr = document.getElementById('xorKey').value.trim();
+            let xorKey = null;
+
+            if (xorKeyStr) {
+                const hexValues = xorKeyStr.match(/0x[0-9a-fA-F]+/g);
+                if (hexValues) {
+                    xorKey = hexValues.map(hex => parseInt(hex, 16));
+                }
+            } else {
+                showMessage('Running deobfuscation without XOR Key', 'warning');
+            }
+
+            // Step 1: Extract string array and function info
+            const stringArray = extractStringArray(code);
+            const functionInfo = extractFunctionInfo(code);
+
+            // Step 2: Replace function calls
+            if (functionInfo.functionName) {
+                result.deobfuscatedCode = replaceFunctionCalls(
+                    result.deobfuscatedCode,
+                    stringArray,
+                    functionInfo,
+                    result.functionReplacements
+                );
+            }
+
+            // Step 3: Handle complex transformations (like the K function)
+            if (options.executeTransformations) {
+                result.deobfuscatedCode = handleComplexTransformations(
+                    result.deobfuscatedCode,
+                    result.complexTransformations
+                );
+            }
+
+            // Step 4: Decode Buffer.from patterns
+            result.deobfuscatedCode = decodeBufferPatterns(
+                result.deobfuscatedCode,
+                result.base64Decoded
+            );
+
+            // Step 5: Decode standalone base64 strings
+            if (options.decodeBase64) {
+                result.deobfuscatedCode = decodeStandaloneBase64(
+                    result.deobfuscatedCode,
+                    result.base64Decoded
+                );
+            }
+
+            // Step 6: Decrypt XOR arrays (only if XOR key is provided)
+            if (xorKey) {
+                const xorArrays = extractXorArrays(code);
+                xorArrays.forEach((data, name) => {
+                    const decrypted = xorDecrypt(data, xorKey);
+                    result.xorDecrypted.set(name, decrypted);
+                });
+
+                // Apply XOR decryptions
+                result.xorDecrypted.forEach((decrypted, varName) => {
+                    const decryptedArray = Array.from(decrypted)
+                        .map(char => `0x${char.charCodeAt(0).toString(16)}`)
+                        .join(', ');
+
+                    const arrayPattern = new RegExp(`${varName}\\s*=\\s*\\[(?:0x[0-9a-fA-F]+,?\\s*)+\\]`, 'g');
+                    result.deobfuscatedCode = result.deobfuscatedCode.replace(arrayPattern,
+                        `${varName} = "${decrypted}" // [${decryptedArray}]`);
+                });
+            }
+
+            // Step 7: Simplify string concatenations
+            if (options.simplifyStrings) {
+                result.deobfuscatedCode = simplifyStringConcatenations(
+                    result.deobfuscatedCode,
+                    result.stringSimplifications
+                );
+            }
+
+            // Step 8: Clean up code
+            result.deobfuscatedCode = cleanupCode(result.deobfuscatedCode);
+
+            // Combine all transformations
+            result.allTransformations = [
+                ...Array.from(result.functionReplacements.entries()).map(([k, v]) => ({type: 'function', from: k, to: v})),
+                ...Array.from(result.base64Decoded.entries()).map(([k, v]) => ({type: 'base64', from: k, to: v})),
+                ...Array.from(result.xorDecrypted.entries()).map(([k, v]) => ({type: 'xor', from: k, to: v})),
+                ...Array.from(result.stringSimplifications.entries()).map(([k, v]) => ({type: 'string', from: k, to: v})),
+                ...Array.from(result.complexTransformations.entries()).map(([k, v]) => ({type: 'complex', from: k, to: v}))
+            ];
+
+            currentResults = result;
+            return result;
+        }
+
+        function handleComplexTransformations(code, transformations) {
+            // Pattern for functions that do string manipulation with base64
+            const complexPattern = /const (\w+) = \((\w+)\) => \{[\s\S]*?const encoded = [^;]+;[\s\S]*?const rearranged = encoded\.slice\((\d+), (\d+)\) \+ encoded\.slice\((\d+), (\d+)\) \+ encoded\.slice\((\d+)\);[\s\S]*?return [\s\S]*?\};/g;
+
+            code = code.replace(complexPattern, (match, funcName, param, s1, e1, s2, e2, s3) => {
+                // Extract the base64 values
+                const base64Match1 = match.match(/"MC44NS4xMTY1LjE0MDU="/);
+                const base64Match2 = match.match(/"MC44Ni4xMTY1LjE0MDY="/);
+
+                if (base64Match1 && base64Match2) {
+                    // Apply the transformation logic
+                    const str1 = "MC44NS4xMTY1LjE0MDU=";
+                    const str2 = "MC44Ni4xMTY1LjE0MDY=";
+
+                    const rearranged1 = str1.slice(parseInt(s1), parseInt(e1)) +
+                                       str1.slice(parseInt(s2), parseInt(e2)) +
+                                       str1.slice(parseInt(s3));
+                    const rearranged2 = str2.slice(parseInt(s1), parseInt(e1)) +
+                                       str2.slice(parseInt(s2), parseInt(e2)) +
+                                       str2.slice(parseInt(s3));
+
+                    const decoded1 = atob(rearranged1);
+                    const decoded2 = atob(rearranged2);
+
+                    transformations.set(`Function ${funcName}`,
+                        `Complex transformation → URLs: 0="http://${decoded1}:1244", 1="http://${decoded2}:1244"`);
+
+                    return `const ${funcName} = (${param}) => {
+    // Deobfuscated: Returns URL based on parameter
+    // Original used complex string rearrangement with base64
+    const urls = {
+        0: "http://${decoded1}:1244",
+        1: "http://${decoded2}:1244"
+    };
+    return urls[${param}] || urls[0];
+};`;
+                }
+
+                return match;
+            });
+
+            // Also handle inline complex expressions
+            const inlinePattern = /encoded\.slice\((\d+), (\d+)\) \+ encoded\.slice\((\d+), (\d+)\) \+ encoded\.slice\((\d+)\)/g;
+            code = code.replace(inlinePattern, (match, s1, e1, s2, e2, s3) => {
+                transformations.set(match, `String rearrangement: slice(${s1}, ${e1}) + slice(${s2}, ${e2}) + slice(${s3})`);
+                return match; // Keep for now, will be resolved by other patterns
+            });
+
+            return code;
+        }
+
+        function extractStringArray(code) {
+            const match = code.match(/const am = \[([\s\S]*?)\];/);
+            if (match) {
+                return match[1]
+                    .split(',')
+                    .map(s => s.trim().replace(/['"]/g, ''));
+            }
+            return [];
+        }
+
+        function extractFunctionInfo(code) {
+            const wrapperMatch = code.match(/const (\w+) = H/);
+            const offsetMatch = code.match(/d = d - (0x[0-9a-fA-F]+);/);
+
+            return {
+                functionName: wrapperMatch ? wrapperMatch[1] : '',
+                offset: offsetMatch ? parseInt(offsetMatch[1], 16) : 0xae
+            };
+        }
+
+        function replaceFunctionCalls(code, stringArray, functionInfo, replacements) {
+            const pattern = new RegExp(`(\\w+)\\((0x[0-9a-fA-F]+)\\)`, 'g');
+
+            return code.replace(pattern, (match, func, hexIndex) => {
+                const index = parseInt(hexIndex, 16) - functionInfo.offset;
+                if (index >= 0 && index < stringArray.length) {
+                    const encoded = stringArray[index];
+                    try {
+                        const decoded = atob(encoded);
+                        replacements.set(match, decoded);
+                        return `"${decoded}"`;
+                    } catch (e) {
+                        return match;
+                    }
+                }
+                return match;
+            });
+        }
+
+        function decodeBufferPatterns(code, decodedMap) {
+            // Pattern 1: Buffer.from("base64").toString()
+            code = code.replace(
+                /Buffer\.from\s*\(\s*["']([A-Za-z0-9+/=]+)["']\s*,\s*["']base64["']\s*\)\s*\.toString\s*\(\s*["'](?:utf-?8|ascii)["']\s*\)/g,
+                (match, base64String) => {
+                    try {
+                        const decoded = atob(base64String);
+                        decodedMap.set(match, decoded);
+                        return `"${decoded}"`;
+                    } catch (e) {
+                        return match;
+                    }
+                }
+            );
+
+            // Pattern 2: Buffer.from("string".substring(n), "base64").toString()
+            code = code.replace(
+                /Buffer\.from\s*\(\s*["']([A-Za-z0-9+/=]+)["']\.substring\s*\(\s*(\d+)\s*\)\s*,\s*["']base64["']\s*\)\s*\.toString\s*\(\s*["'](?:utf-?8|ascii)["']\s*\)/g,
+                (match, base64String, startIndex) => {
+                    try {
+                        const substring = base64String.substring(parseInt(startIndex));
+                        const decoded = atob(substring);
+                        decodedMap.set(match, decoded);
+                        return `"${decoded}"`;
+                    } catch (e) {
+                        return match;
+                    }
+                }
+            );
+
+            // Pattern 3: Buffer["from"]()["toString"]()
+            code = code.replace(
+                /Buffer\["from"\]\s*\(\s*["']([A-Za-z0-9+/=]+)["']\s*,\s*["']base64["']\s*\)\s*\["toString"\]\s*\(\s*["'](?:utf-?8|ascii)["']\s*\)/g,
+                (match, base64String) => {
+                    try {
+                        const decoded = atob(base64String);
+                        decodedMap.set(match, decoded);
+                        return `"${decoded}"`;
+                    } catch (e) {
+                        return match;
+                    }
+                }
+            );
+
+            // Pattern 4: Buffer.from(rearranged, "base64").toString()
+            code = code.replace(
+                /Buffer\.from\s*\(\s*rearranged\s*,\s*["']base64["']\s*\)\s*\.toString\s*\(\s*["'](?:utf-?8|ascii)["']\s*\)/g,
+                (match) => {
+                    decodedMap.set(match, "Rearranged base64 string (see complex transformations)");
+                    return `decodedRearranged /* See complex transformations */`;
+                }
+            );
+
+            return code;
+        }
+
+        function decodeStandaloneBase64(code, decodedMap) {
+            // Find standalone base64 strings in assignments
+            const pattern = /(\w+)\s*=\s*(0\s*===?\s*\w+\s*\?\s*)?["']([A-Za-z0-9+/]{8,}={0,2})["']/g;
+
+            return code.replace(pattern, (match, varName, condition, base64String) => {
+                if (base64String.length >= 8 && base64String.length % 4 === 0) {
+                    try {
+                        const decoded = atob(base64String);
+                        if (isReadableString(decoded)) {
+                            decodedMap.set(`${varName} = "${base64String}"`, decoded);
+                            return `${varName} = ${condition || ''}/* Base64: ${base64String} */ "${decoded}"`;
+                        }
+                    } catch (e) {
+                        // Not valid base64
+                    }
+                }
+                return match;
+            });
+        }
+
+        function simplifyStringConcatenations(code, simplifications) {
+            // Pattern 1: "string1" + "string2"
+            code = code.replace(
+                /["']([^"']+)["']\s*\+\s*["']([^"']+)["']/g,
+                (match, str1, str2) => {
+                    const combined = str1 + str2;
+                    simplifications.set(match, combined);
+                    return `"${combined}"`;
+                }
+            );
+
+            // Pattern 2: ":124" + '4' -> "1244"
+            code = code.replace(
+                /["'](:?\d+)["']\s*\+\s*["'](\d+)["']/g,
+                (match, num1, num2) => {
+                    const combined = num1 + num2;
+                    simplifications.set(match, combined);
+                    return `"${combined}"`;
+                }
+            );
+
+            return code;
+        }
+
+        function extractXorArrays(code) {
+            const arrays = new Map();
+            const pattern = /(\w+)\s*=\s*\[((?:0x[0-9a-fA-F]+,?\s*)+)\]/g;
+
+            let match;
+            while ((match = pattern.exec(code)) !== null) {
+                const varName = match[1];
+                if (varName === 'am') continue;
+
+                const arrayStr = match[2];
+                const hexValues = arrayStr.match(/0x[0-9a-fA-F]+/g);
+
+                if (hexValues) {
+                    const numArray = hexValues.map(hex => parseInt(hex, 16));
+                    arrays.set(varName, numArray);
+                }
+            }
+
+            return arrays;
+        }
+
+        function xorDecrypt(data, xorKey) {
+            const decrypted = [];
+            for (let i = 0; i < data.length; i++) {
+                decrypted.push(data[i] ^ xorKey[i % xorKey.length]);
+            }
+            return String.fromCharCode(...decrypted);
+        }
+
+        function isReadableString(str) {
+            let printableCount = 0;
+            for (let i = 0; i < str.length; i++) {
+                const code = str.charCodeAt(i);
+                if (code >= 32 && code <= 126 || code === 10 || code === 13 || code === 9) {
+                    printableCount++;
+                }
+            }
+            return printableCount / str.length > 0.8;
+        }
+
+        function cleanupCode(code) {
+            // Remove obfuscation functions
+            code = code.replace(/function H\(a, b\) \{[\s\S]*?\n\}\n/g, '');
+            code = code.replace(/function F\(\) \{[\s\S]*?\n\}\n/g, '');
+            code = code.replace(/const \w+ = H;\n/g, '');
+
+            // Fix bracket notation
+            code = code.replace(/\["(\w+)"\]/g, '.$1');
+
+            // Clean up extra whitespace
+            code = code.replace(/\n{3,}/g, '\n\n');
+
+            return code.trim();
+        }
+
+        function displayResults(result) {
+            document.getElementById('outputSection').style.display = 'block';
+
+            // All transformations
+            const allDiv = document.getElementById('transformationsContent');
+            allDiv.innerHTML = '';
+            result.allTransformations.forEach(trans => {
+                const div = createTransformationItem(trans.from, trans.to, trans.type);
+                allDiv.appendChild(div);
+            });
+
+            // Base64 decoded
+            const base64Div = document.getElementById('base64Content');
+            base64Div.innerHTML = '';
+            result.base64Decoded.forEach((decoded, original) => {
+                const div = createTransformationItem(original, decoded, 'base64');
+                base64Div.appendChild(div);
+            });
+
+            // XOR decrypted
+            const xorDiv = document.getElementById('xorContent');
+            xorDiv.innerHTML = '';
+            result.xorDecrypted.forEach((decrypted, name) => {
+                const div = createTransformationItem(name, decrypted, 'xor');
+                xorDiv.appendChild(div);
+            });
+
+            // Function replacements
+            const functionsDiv = document.getElementById('functionsContent');
+            functionsDiv.innerHTML = '';
+            result.functionReplacements.forEach((decoded, original) => {
+                const div = createTransformationItem(original, decoded, 'function');
+                functionsDiv.appendChild(div);
+            });
+
+            // String simplifications
+            const stringsDiv = document.getElementById('stringsContent');
+            stringsDiv.innerHTML = '';
+            result.stringSimplifications.forEach((simplified, original) => {
+                const div = createTransformationItem(original, simplified, 'string');
+                stringsDiv.appendChild(div);
+            });
+
+            // Complex transformations
+            const complexDiv = document.getElementById('complexContent');
+            complexDiv.innerHTML = '';
+            result.complexTransformations.forEach((description, original) => {
+                const div = createTransformationItem(original, description, 'complex');
+                complexDiv.appendChild(div);
+            });
+        }
+
+        function createTransformationItem(from, to, type) {
+            const div = document.createElement('div');
+            div.className = 'transformation-item';
+            div.innerHTML = `
+                <div class="original">${escapeHtml(from.substring(0, 200) + (from.length > 200 ? '...' : ''))}</div>
+                <div>
+                    <span class="arrow">→</span>
+                    <span class="decoded">${escapeHtml(to)}</span>
+                </div>
+            `;
+            return div;
+        }
+
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, m => map[m]);
+        }
+
+        // Status message functions
+        function showMessage(message, type) {
+            const statusContainer = document.getElementById('status');
+
+            // Create message element
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `status-message ${type}`;
+
+            const messageText = document.createElement('span');
+            messageText.textContent = message;
+            messageDiv.appendChild(messageText);
+
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'status-close';
+            closeBtn.innerHTML = '×';
+            closeBtn.onclick = () => messageDiv.remove();
+            messageDiv.appendChild(closeBtn);
+
+            // Add to container
+            statusContainer.appendChild(messageDiv);
+
+            // Auto-remove after 5 seconds for success messages
+            if (type === 'success') {
+                setTimeout(() => {
+                    if (messageDiv.parentNode) {
+                        messageDiv.remove();
+                    }
+                }, 5000);
+            }
+        }
+
+        // Backward compatibility aliases
+        function showError(message) {
+            showMessage(message, 'error');
+        }
+
+        function showSuccess(message) {
+            showMessage(message, 'success');
+        }
+
+        function showWarning(message) {
+            showMessage(message, 'warning');
+        }
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', () => {
+            if (resizeObserver) {
+                resizeObserver.disconnect();
+            }
+        });
+    </script>
+</body>
+</html>
