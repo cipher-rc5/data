@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal JavaScript Deobfuscator</title>
+    <style>
+        :root {
+            --bg-primary: #f5f5f5;
+            --bg-secondary: white;
+            --bg-tertiary: #f8f8f8;
+            --bg-info: #e3f2fd;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-success: #008000;
+            --text-error: #d00;
+            --border-primary: #ddd;
+            --accent-primary: #007acc;
+            --accent-hover: #005a9e;
+            --shadow: rgba(0,0,0,0.1);
+        }
+        
+        [data-theme="dark"] {
+            --bg-primary: #1e1e1e;
+            --bg-secondary: #2d2d30;
+            --bg-tertiary: #252526;
+            --bg-info: #1e3a5f;
+            --text-primary: #d4d4d4;
+            --text-secondary: #a0a0a0;
+            --text-success: #4ec9b0;
+            --text-error: #f48771;
+            --border-primary: #3e3e42;
+            --accent-primary: #3794ff;
+            --accent-hover: #1b7fd8;
+            --shadow: rgba(0,0,0,0.3);
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        h1 {
+            color: var(--text-primary);
+            border-bottom: 3px solid var(--accent-primary);
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid var(--border-primary);
+            border-radius: 5px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 12px;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+        }
+        
+        button {
+            background-color: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: var(--accent-hover);
+        }
+        
+        .theme-toggle {
+            background-color: transparent;
+            border: 2px solid var(--accent-primary);
+            color: var(--accent-primary);
+            padding: 8px 16px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .theme-toggle:hover {
+            background-color: var(--accent-primary);
+            color: white;
+        }
+        
+        .results {
+            margin-top: 20px;
+            background-color: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px var(--shadow);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        
+        .result-section {
+            margin-bottom: 20px;
+        }
+        
+        .result-section h3 {
+            color: var(--accent-primary);
+            margin-bottom: 10px;
+        }
+        
+        .result-item {
+            background-color: var(--bg-tertiary);
+            padding: 8px;
+            margin: 5px 0;
+            border-left: 3px solid var(--accent-primary);
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 13px;
+            word-break: break-all;
+            transition: background-color 0.3s;
+        }
+        
+        .decoded {
+            color: var(--text-success);
+            font-weight: bold;
+        }
+        
+        .encoded {
+            color: var(--text-secondary);
+        }
+        
+        .error {
+            color: var(--text-error);
+        }
+        
+        .info {
+            background-color: var(--bg-info);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .info ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .info li {
+            margin: 5px 0;
+        }
+        
+        /* Scrollbar styling for dark mode */
+        [data-theme="dark"] ::-webkit-scrollbar {
+            width: 12px;
+            height: 12px;
+        }
+        
+        [data-theme="dark"] ::-webkit-scrollbar-track {
+            background: var(--bg-tertiary);
+        }
+        
+        [data-theme="dark"] ::-webkit-scrollbar-thumb {
+            background: var(--border-primary);
+            border-radius: 6px;
+        }
+        
+        [data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+        
+        /* Smooth transitions for theme switching */
+        body, textarea, .results, .result-item, .info {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Universal JavaScript Deobfuscator
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-text">Dark Mode</span>
+        </button>
+    </h1>
+    <div class="info">
+        <strong>Supported Patterns:</strong>
+        <ul>
+            <li>XOR encrypted arrays (with 4-byte key)</li>
+            <li>Base64 strings with slice operation</li>
+            <li>Direct Base64 encoded strings</li>
+            <li>Complex string construction patterns</li>
+        </ul>
+    </div>
+    
+    <textarea id="input" placeholder="Paste your obfuscated JavaScript code here..."></textarea>
+    <br>
+    <button onclick="extractAll()">Extract All Patterns</button>
+    <button onclick="clearResults()">Clear</button>
+    
+    <div id="results" class="results" style="display:none;"></div>
+
+    <script>
+        // Theme management (using in-memory storage for Claude.ai compatibility)
+        let currentTheme = 'light';
+        
+        function initTheme() {
+            // Default to light mode
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            updateThemeButton(currentTheme);
+        }
+        
+        function toggleTheme() {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            updateThemeButton(currentTheme);
+        }
+        
+        function updateThemeButton(theme) {
+            const icon = document.getElementById('theme-icon');
+            const text = document.getElementById('theme-text');
+            if (theme === 'dark') {
+                icon.textContent = '☀️';
+                text.textContent = 'Light Mode';
+            } else {
+                icon.textContent = '🌙';
+                text.textContent = 'Dark Mode';
+            }
+        }
+        
+        // Initialize theme on page load
+        initTheme();
+        
+        // Deobfuscation functions
+        function extractAll() {
+            const input = document.getElementById('input').value;
+            const results = extractAndProcess(input);
+            displayResults(results);
+        }
+        
+        function clearResults() {
+            document.getElementById('input').value = '';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('results').innerHTML = '';
+        }
+        
+        function extractAndProcess(text) {
+            const results = {
+                xorArrays: {},
+                base64Strings: {},
+                slicedBase64: {},
+                complexStrings: {},
+                metadata: {}
+            };
+            
+            // Pattern 1: XOR encrypted arrays
+            const xorDecryptRegex = /const\s+(\w+)\s*=\s*\w+\s*=>\s*{[^}]*\^\s*(\w+)\s*\[0x3\s*&/;
+            const xorMatch = text.match(xorDecryptRegex);
+            
+            if (xorMatch) {
+                const decryptFuncName = xorMatch[1];
+                const xorKeyVarName = xorMatch[2];
+                
+                const keyRegex = new RegExp(`const\\s+${xorKeyVarName}\\s*=\\s*\\[([^\\]]+)\\]`);
+                const keyMatch = text.match(keyRegex);
+                
+                if (keyMatch) {
+                    const xorKey = keyMatch[1]
+                        .split(',')
+                        .map(val => parseInt(val.trim(), 16));
+                    
+                    results.metadata.xorKey = {
+                        name: xorKeyVarName,
+                        values: xorKey,
+                        function: decryptFuncName
+                    };
+                    
+                    const arrayRegex = /const\s+(\w+)\s*=\s*\[([^\]]+)\]/g;
+                    let match;
+                    
+                    while ((match = arrayRegex.exec(text)) !== null) {
+                        const varName = match[1];
+                        if (varName === xorKeyVarName) continue;
+                        
+                        const values = match[2]
+                            .split(',')
+                            .map(val => parseInt(val.trim(), 16))
+                            .filter(val => !isNaN(val));
+                        
+                        if (values.length > 0 && values.every(v => v >= 0 && v <= 255)) {
+                            let decoded = '';
+                            for (let i = 0; i < values.length; i++) {
+                                const byte = 0xff & (values[i] ^ xorKey[0x3 & i]);
+                                decoded += String.fromCharCode(byte);
+                            }
+                            
+                            if (decoded.match(/^[\x20-\x7E]+$/)) {
+                                results.xorArrays[varName] = {
+                                    values: values,
+                                    decoded: decoded
+                                };
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Pattern 2: Base64 with slice function
+            const sliceBase64Regex = /(\$|\w+)\s*=\s*\w+\s*=>\s*\([^)]*\.slice\(0x1\)[^)]+["']base64["']/;
+            const sliceMatch = text.match(sliceBase64Regex);
+            
+            if (sliceMatch) {
+                const sliceFuncName = sliceMatch[1];
+                results.metadata.sliceFunction = sliceFuncName;
+                
+                const callRegex = new RegExp(`${sliceFuncName.replace('$', '\\$')}\\s*\\(\\s*["']([^"']+)["']\\s*\\)`, 'g');
+                let match;
+                
+                while ((match = callRegex.exec(text)) !== null) {
+                    const encoded = match[1];
+                    try {
+                        const decoded = atob(encoded.slice(1));
+                        results.slicedBase64[encoded] = decoded;
+                    } catch (e) {
+                        // Invalid base64
+                    }
+                }
+            }
+            
+            // Pattern 3: Direct Buffer.from base64 strings
+            const bufferBase64Regex = /Buffer\.from\s*\(\s*["']([A-Za-z0-9+/=]+)["']\s*,\s*["']base64["']\s*\)/g;
+            let match;
+            
+            while ((match = bufferBase64Regex.exec(text)) !== null) {
+                const encoded = match[1];
+                try {
+                    const decoded = atob(encoded);
+                    if (decoded.match(/^[\x20-\x7E]+$/) || decoded.match(/^[\x00-\xFF]+$/)) {
+                        results.base64Strings[encoded] = decoded;
+                    }
+                } catch (e) {
+                    // Invalid base64
+                }
+            }
+            
+            // Pattern 4: Complex string construction
+            const complexPatternRegex = /for\s*\([^)]+\s*<\s*0x[a-fA-F0-9]+[^}]+["']([^"']+)["']\s*\[\w+\]/;
+            const complexMatch = text.match(complexPatternRegex);
+            
+            if (complexMatch) {
+                results.complexStrings.sourceString = complexMatch[1];
+                
+                // Try to decode parts of the complex string
+                const parts = complexMatch[1].split(/\s+/);
+                parts.forEach((part, index) => {
+                    if (part.length > 4) {
+                        try {
+                            const decoded = atob(part);
+                            if (decoded.match(/^[\x20-\x7E]+$/)) {
+                                results.complexStrings[`part${index}`] = {
+                                    encoded: part,
+                                    decoded: decoded
+                                };
+                            }
+                        } catch (e) {
+                            // Not valid base64
+                        }
+                    }
+                });
+            }
+            
+            return results;
+        }
+        
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            resultsDiv.style.display = 'block';
+            
+            // Metadata section
+            if (results.metadata && Object.keys(results.metadata).length > 0) {
+                const section = document.createElement('div');
+                section.className = 'result-section';
+                section.innerHTML = '<h3>Detection Info</h3>';
+                
+                if (results.metadata.xorKey) {
+                    const item = document.createElement('div');
+                    item.className = 'result-item';
+                    item.innerHTML = `XOR Key (<span class="encoded">${results.metadata.xorKey.name}</span>): <span class="decoded">[${results.metadata.xorKey.values.map(v => '0x' + v.toString(16)).join(', ')}]</span> | Function: <span class="encoded">${results.metadata.xorKey.function}</span>`;
+                    section.appendChild(item);
+                }
+                
+                if (results.metadata.sliceFunction) {
+                    const item = document.createElement('div');
+                    item.className = 'result-item';
+                    item.innerHTML = `Slice+Base64 Function: <span class="encoded">${results.metadata.sliceFunction}</span>`;
+                    section.appendChild(item);
+                }
+                
+                resultsDiv.appendChild(section);
+            }
+            
+            // XOR Arrays
+            if (Object.keys(results.xorArrays).length > 0) {
+                const section = document.createElement('div');
+                section.className = 'result-section';
+                section.innerHTML = '<h3>XOR Encrypted Arrays</h3>';
+                
+                for (const [name, data] of Object.entries(results.xorArrays)) {
+                    const item = document.createElement('div');
+                    item.className = 'result-item';
+                    item.innerHTML = `<span class="encoded">${name}</span> = <span class="decoded">"${data.decoded}"</span>`;
+                    section.appendChild(item);
+                }
+                
+                resultsDiv.appendChild(section);
+            }
+            
+            // Sliced Base64
+            if (Object.keys(results.slicedBase64).length > 0) {
+                const section = document.createElement('div');
+                section.className = 'result-section';
+                section.innerHTML = '<h3>Sliced Base64 Strings</h3>';
+                
+                for (const [encoded, decoded] of Object.entries(results.slicedBase64)) {
+                    const item = document.createElement('div');
+                    item.className = 'result-item';
+                    item.innerHTML = `$("<span class="encoded">${encoded}</span>") = <span class="decoded">"${decoded}"</span>`;
+                    section.appendChild(item);
+                }
+                
+                resultsDiv.appendChild(section);
+            }
+            
+            // Direct Base64
+            if (Object.keys(results.base64Strings).length > 0) {
+                const section = document.createElement('div');
+                section.className = 'result-section';
+                section.innerHTML = '<h3>Direct Base64 Strings</h3>';
+                
+                for (const [encoded, decoded] of Object.entries(results.base64Strings)) {
+                    const item = document.createElement('div');
+                    item.className = 'result-item';
+                    item.innerHTML = `<span class="encoded">"${encoded}"</span> = <span class="decoded">"${decoded}"</span>`;
+                    section.appendChild(item);
+                }
+                
+                resultsDiv.appendChild(section);
+            }
+            
+            // Complex Strings
+            if (Object.keys(results.complexStrings).length > 0) {
+                const section = document.createElement('div');
+                section.className = 'result-section';
+                section.innerHTML = '<h3>Complex String Construction</h3>';
+                
+                if (results.complexStrings.sourceString) {
+                    const item = document.createElement('div');
+                    item.className = 'result-item';
+                    item.innerHTML = `Source: <span class="encoded">"${results.complexStrings.sourceString}"</span>`;
+                    section.appendChild(item);
+                }
+                
+                for (const [key, data] of Object.entries(results.complexStrings)) {
+                    if (key !== 'sourceString' && data.decoded) {
+                        const item = document.createElement('div');
+                        item.className = 'result-item';
+                        item.innerHTML = `<span class="encoded">"${data.encoded}"</span> = <span class="decoded">"${data.decoded}"</span>`;
+                        section.appendChild(item);
+                    }
+                }
+                
+                resultsDiv.appendChild(section);
+            }
+            
+            if (resultsDiv.innerHTML === '') {
+                resultsDiv.innerHTML = '<div class="error">No obfuscated patterns detected. The code might use a different obfuscation technique.</div>';
+            }
+        }
+    </script>
+</body>
+</html>
